@@ -13,21 +13,21 @@
         ],
         "tagSetSourceFile": ""
     },
-    "ChassisID": "chassisdef_summoner-A",
+    "ChassisID": "chassisdef_summoner-B",
     "HeraldryID": null,
     "Description": {
-        "Cost": 7500000,
+        "Cost": 8000000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": null,
         "Model": null,
-        "UIName": "Summoner SMN-A",
-        "Id": "mechdef_summoner-A",
+        "UIName": "Summoner SMN-B",
+        "Id": "mechdef_summoner-B",
         "Name": "Summoner",
         "Details": "The Summoner is a highly mobile heavy OmniMech that is commonly used by Clan Jade Falcon in a wide variety of roles. Barely a second generation OmniMech, the Jade Falcons introduced the Summoner just after becoming the first Clan to win OmniMech technology from Clan Coyote in 2863. The Summoner was dubbed Thor, its Inner Sphere reporting name, by Victor Steiner-Davion himself after fighting one on Trellwan. The name was supposedly inspired by the weapons loadout (in Prime configuration): a PPC and an AC, lightning and thunder, which are associated with the Norse god Thor.",
         "Icon": "uixTxrIcon_summoner"
     },
-    "simGameMechPartCost": 750000,
+    "simGameMechPartCost": 800000,
     "Version": 1,
     "Locations": [
         {
@@ -106,7 +106,7 @@
     "inventory": [
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Gauss_CGauss_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -117,18 +117,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
+            "ComponentDefID": "Weapon_SRM_CSRM4_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
@@ -137,8 +126,8 @@
             "prefabName": null,
             "hasPrefabName": false
         },
-        {
-            "MountedLocation": "LeftTorso",
+	{
+            "MountedLocation": "LeftArm",
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
@@ -149,8 +138,52 @@
             "hasPrefabName": false
         },
 	{
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+	{
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+	 {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefID": "Weapon_Narc_CNarc_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_AMS_Clan",
+            "SimGameUID": null,
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
@@ -161,10 +194,54 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_CLargeLaserPulse_0-STOCK",
+            "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
             "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_SRM_CSRM4_0-STOCK",
+            "SimGameUID": null,
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+	{
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+	{
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+	{
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "SimGameUID": null,
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
