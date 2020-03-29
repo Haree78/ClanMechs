@@ -120,7 +120,7 @@
             "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
             "SimGameUID": null,
             "ComponentDefType": "AmmunitionBox",
-            "HardpointSlot": 1,
+            "HardpointSlot": -1,
             "GUID": null,
             "DamageLevel": "Functional",
             "prefabName": null,
