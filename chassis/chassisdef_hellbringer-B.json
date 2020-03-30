@@ -1,12 +1,12 @@
 {
     "Description": {
-        "Cost": 5800000,
+        "Cost": 5600000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Hellbringer",
-        "Id": "chassisdef_hellbringer-A",
+        "Id": "chassisdef_hellbringer-B",
         "Name": "Hellbringer",
         "Details": "The Hellbringer is a very widespread design developed by Clan Hell's Horses. However, due to its poor armor, the Hellbringer is often passed over for more robust OmniMechs. The Inner Sphere first encountered the Hellbringer facing Clan Jade Falcon, which favors the design for its immense offensive potential. The Hellbringer utilizes a standard internal structure, and has decent mobility, with a top speed of 86.4 km/h. Though it has vast firepower at its disposal, the design is not particularly durable, mounting a mere eight tons of Standard armor, and the Hellbringer is not particularly suitable for defensive situations or extended engagements.",
         "Icon": "uixTxrIcon_summoner"
@@ -19,7 +19,7 @@
     "Tonnage": 65,
     "InitialTonnage": 28.5,
     "weightClass": "HEAVY",
-    "BattleValue": 5800000,
+    "BattleValue": 5600000,
     "Heatsinks": 0,
     "TopSpeed": 85,
     "TurnRadius": 90,
@@ -50,10 +50,6 @@
         {
             "Location": "Head",
             "Hardpoints": [
-	        {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                }
 	    ],
             "Tonnage": 0,
             "InventorySlots": 1,
@@ -65,11 +61,7 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-		{
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -83,7 +75,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Missile",
+                    "WeaponMount": "AntiPersonnel",
                     "Omni": false
                 }
             ],
@@ -111,11 +103,7 @@
                     "Omni": false
                 },
 		{
-                    "WeaponMount": "AntiPersonnel",
-                    "Omni": false
-                },
-		{
-                    "WeaponMount": "AntiPersonnel",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -202,7 +190,7 @@
             "z": 0
         }
     ],
-    "VariantName": "HBR-A",
+    "VariantName": "HBR-B",
     "ChassisTags": {
         "items": [
 			"chassis_clan"
@@ -210,7 +198,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "Hellbringer A partially addresses Hellbringer Prime overheating problems. This mech carries mostly support weapons which, considering its paper-thin armor is totally appropriate for its role.",
+    "YangsThoughts": "Hellbringer B is a VERY contradictory mech. Lack of firepoer at any particular range... Lack of ammo... At least it doesn't overheat. At all.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
