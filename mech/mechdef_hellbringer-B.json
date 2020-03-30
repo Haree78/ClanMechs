@@ -79,7 +79,7 @@
             "Location": "RightArm",
             "CurrentArmor": 55,
             "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 55,
+            "CurrentInternalStructure": 50,
             "AssignedArmor": 55,
             "AssignedRearArmor": -1
         },
