@@ -1,12 +1,12 @@
 {
     "Description": {
-        "Cost": 5900000,
+        "Cost": 5800000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "",
         "Model": "",
         "UIName": "Hellbringer",
-        "Id": "chassisdef_hellbringer-PRIME",
+        "Id": "chassisdef_hellbringer-A",
         "Name": "Hellbringer",
         "Details": "The Hellbringer is a very widespread design developed by Clan Hell's Horses. However, due to its poor armor, the Hellbringer is often passed over for more robust OmniMechs. The Inner Sphere first encountered the Hellbringer facing Clan Jade Falcon, which favors the design for its immense offensive potential. The Hellbringer utilizes a standard internal structure, and has decent mobility, with a top speed of 86.4 km/h. Though it has vast firepower at its disposal, the design is not particularly durable, mounting a mere eight tons of Standard armor, and the Hellbringer is not particularly suitable for defensive situations or extended engagements.",
         "Icon": "uixTxrIcon_summoner"
@@ -19,7 +19,7 @@
     "Tonnage": 65,
     "InitialTonnage": 28.5,
     "weightClass": "HEAVY",
-    "BattleValue": 6600000,
+    "BattleValue": 5800000,
     "Heatsinks": 0,
     "TopSpeed": 85,
     "TurnRadius": 90,
@@ -49,7 +49,12 @@
     "Locations": [
         {
             "Location": "Head",
-            "Hardpoints": [],
+            "Hardpoints": [
+	        {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+	    ],
             "Tonnage": 0,
             "InventorySlots": 1,
             "MaxArmor": 45,
@@ -60,6 +65,10 @@
             "Location": "LeftArm",
             "Hardpoints": [
                 {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+		{
                     "WeaponMount": "Energy",
                     "Omni": false
                 }
@@ -74,15 +83,7 @@
             "Location": "LeftTorso",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-		{
-                    "WeaponMount": "Energy",
-                    "Omni": false
-                },
-		{
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Missile",
                     "Omni": false
                 }
             ],
@@ -128,7 +129,7 @@
             "Location": "RightArm",
             "Hardpoints": [
                 {
-                    "WeaponMount": "Energy",
+                    "WeaponMount": "Ballistic",
                     "Omni": false
                 }
             ],
@@ -201,7 +202,7 @@
             "z": 0
         }
     ],
-    "VariantName": "HBR-PRIME",
+    "VariantName": "HBR-A",
     "ChassisTags": {
         "items": [
 			"chassis_clan"
@@ -209,7 +210,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Striker",
-    "YangsThoughts": "Hellbringer Prime carries a decent arsenal of weapons connected to the Targeting Computer. The mech tends to run hot and has paper thin armor, so it needs a very careful pilot.",
+    "YangsThoughts": "Hellbringer A partially solves Summoner Prime overheating problems. This mech carries mostly support weapons which, considering its paper-thin armor is totally appropriate for its role.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
