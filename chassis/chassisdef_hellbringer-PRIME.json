@@ -9,7 +9,7 @@
         "Id": "chassisdef_hellbringer-PRIME",
         "Name": "Hellbringer",
         "Details": "The Hellbringer is a very widespread design developed by Clan Hell's Horses. However, due to its poor armor, the Hellbringer is often passed over for more robust OmniMechs. The Inner Sphere first encountered the Hellbringer facing Clan Jade Falcon, which favors the design for its immense offensive potential. The Hellbringer utilizes a standard internal structure, and has decent mobility, with a top speed of 86.4 km/h. Though it has vast firepower at its disposal, the design is not particularly durable, mounting a mere eight tons of Standard armor, and the Hellbringer is not particularly suitable for defensive situations or extended engagements.",
-        "Icon": "uixTxrIcon_summoner"
+        "Icon": "uixTxrIcon_hellbringer"
     },
     "MovementCapDefID": "movedef_hellbringer",
     "PathingCapDefID": "pathingdef_heavy",
