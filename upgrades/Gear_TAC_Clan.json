@@ -36,7 +36,7 @@
             "effectType" : "StatisticEffect",
             "Description" : {
                 "Id" : "StatusEffect-IntSys-IgnoreEvasion3",
-                "Name" : "INTERCEPT SYSTEM",
+                "Name" : "TARGETING COMPUTER",
                 "Details" : "This unit ignores [AMT] charges of EVASIVE when attacking targets.",
                 "Icon" : "UixSvgIcon_specialEquip_System"
             },
