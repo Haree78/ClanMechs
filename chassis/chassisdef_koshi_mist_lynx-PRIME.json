@@ -14,7 +14,7 @@
   "MovementCapDefID": "movedef_koshi-PRIME",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mistlynx",
-  "PrefabIdentifier": "chrprfmech_koshibase-001",
+  "PrefabIdentifier": "chrprfmech_mistlynxbase-001",
   "PrefabBase": "mistlynx",
   "Tonnage": 25,
   "InitialTonnage": 10.0,
