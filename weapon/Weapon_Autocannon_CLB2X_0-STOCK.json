@@ -3,11 +3,11 @@
     "Type" : "Autocannon",
     "WeaponSubType" : "LB2X",
     "MinRange" : 120,
-    "MaxRange" : 720,
+    "MaxRange" : 780,
     "RangeSplit" : [
-        480,
-        480,
-        720
+        510,
+        510,
+        780
     ],
     "AmmoCategory" : "NotSet",
     "ammoCategoryID" : "LB2X",
