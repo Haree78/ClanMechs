@@ -1,17 +1,17 @@
 {
   "Description": {
-    "Cost": 4812760,
+    "Cost": 4892057,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Koshi",
-    "ID": "chassisdef_koshi_mist_lynx-PRIME",
+    "ID": "chassisdef_koshi_mist_lynx-B",
     "Name": "Koshi",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_koshi-PRIME",
+  "MovementCapDefID": "movedef_koshi-B",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mistlynx",
   "PrefabIdentifier": "chrprfmech_koshibase-001",
@@ -19,7 +19,7 @@
   "Tonnage": 25,
   "InitialTonnage": 10.0,
   "weightClass": "LIGHT",
-  "BattleValue": 871000,
+  "BattleValue": 1209000,
   "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [
@@ -88,7 +88,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
@@ -106,7 +106,11 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -179,7 +183,7 @@
       "z": 3.0
     }
   ],
-  "VariantName": "KOS-PRIME",
+  "VariantName": "KOS-B",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -216,6 +220,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Scout",
+  "StockRole": "Striker",
   "YangsThoughts": ""
 }
