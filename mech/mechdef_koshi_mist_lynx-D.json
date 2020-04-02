@@ -1,5 +1,5 @@
 {
-  "ChassisID": "chassisdef_koshi_mist_lynx-B",
+  "ChassisID": "chassisdef_koshi_mist_lynx-D",
   "MechTags": {
     "items": [
       "unit_release",
@@ -13,18 +13,18 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 4892057,
+    "Cost": 4616667,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Koshi B",
-    "ID": "mechdef_koshi_mist_lynx-B",
+    "UIName": "Koshi D",
+    "ID": "mechdef_koshi_mist_lynx-D",
     "Name": "Koshi",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 489205,
+  "simGameMechPartCost": 461666,
   "Version": 1,
   "Locations": [
     {
@@ -157,34 +157,7 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_SRM_CSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -202,7 +175,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_CUAC2_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -211,9 +184,9 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
