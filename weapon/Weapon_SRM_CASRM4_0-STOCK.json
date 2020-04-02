@@ -1,7 +1,7 @@
 {
     "Category" : "Missile",
     "Type" : "SRM",
-    "WeaponSubType" : "SRM6",
+    "WeaponSubType" : "SRM4",
     "MinRange" : 0,
     "MaxRange" : 360,
     "RangeSplit" : [
@@ -11,7 +11,7 @@
     ],
     "AmmoCategory" : "SRM",
     "StartingAmmoCapacity" : 0,
-    "HeatGenerated" : 12,
+    "HeatGenerated" : 8,
     "Damage" : 8,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
@@ -23,31 +23,31 @@
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
-    "ShotsWhenFired" : 6,
+    "ShotsWhenFired" : 4,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
     "Instability" : 4,
-    "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
+    "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
     "Description" : {
-        "Cost" : 90000,
+        "Cost" : 160000,
         "Rarity" : 0,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
-        "Model" : "SRM Missile Launcher",
-        "UIName" : "Clan Artemis IV  SRM6",
-        "Id" : "Weapon_SRM_CASRM6_0-STOCK",
-        "Name" : "Clan Artemis IV SRM6",
-        "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges.",
+        "Model" : "Short-Range Missile Launcher",
+        "UIName" : "Clan Artemis IV SRM4",
+        "Id" : "Weapon_SRM_CASRM4_0-STOCK",
+        "Name" : "Clan Artemis IV SRM4",
+        "Details" : "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons. Artemis IV FCS is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy and stability damage of SRMs.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "srm6",
+    "PrefabIdentifier" : "srm4",
     "BattleValue" : 0,
     "InventorySize" : 2,
-    "Tonnage" : 2.5,
+    "Tonnage" : 2,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -57,11 +57,10 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "component_type_clan",
             "component_type_lostech",
             "range_standard",
-			"BLACKLISTED",
-			"component_streak"
+	     "component_type_clan",
+            "component_artemis"
         ],
         "tagSetSourceFile" : ""
     }
