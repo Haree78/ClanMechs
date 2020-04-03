@@ -11,7 +11,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_koshi-C",
+  "MovementCapDefID": "movedef_koshi-7",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_mistlynx",
   "PrefabIdentifier": "chrprfmech_mistlynxbase-001",

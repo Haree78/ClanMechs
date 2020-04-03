@@ -1,12 +1,12 @@
 {
   "Description": {
-    "Cost": 4812760,
+    "Cost": 4790104,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Koshi",
-    "ID": "chassisdef_koshi_mist_lynx-PRIME",
+    "ID": "chassisdef_koshi_mist_lynx-E",
     "Name": "Koshi",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
@@ -19,7 +19,7 @@
   "Tonnage": 25,
   "InitialTonnage": 10.0,
   "weightClass": "LIGHT",
-  "BattleValue": 871000,
+  "BattleValue": 997000,
   "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [
@@ -84,7 +84,11 @@
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -179,7 +183,7 @@
       "z": 3.0
     }
   ],
-  "VariantName": "KOS-PRIME",
+  "VariantName": "KOS-E",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -216,6 +220,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Scout",
+  "StockRole": "Striker",
   "YangsThoughts": ""
 }
