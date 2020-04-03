@@ -35,7 +35,7 @@
         "Manufacturer" : "Clans",
         "Model" : "Heat Damage Flamethrower",
         "UIName" : "Clan Flamer",
-        "Id" : "Weapon_Flamer_Flamer_0-STOCK",
+        "Id" : "Weapon_Flamer_CFlamer_0-STOCK",
         "Name" : "Clan Flamer",
         "Details" : "Flamer weapons are unique in that they deal little physical damage but instead expel superheated plasma, applying substantial heat to their target. When done properly, this can hamper enemy return fire or even cause the targeted unit to shut down from overheating.",
         "Icon" : "uixSvgIcon_weapon_Support"
