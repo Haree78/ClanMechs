@@ -1,7 +1,7 @@
 {
     "Category" : "Missile",
     "Type" : "SRM",
-    "WeaponSubType" : "SRM3",
+    "WeaponSubType" : "SRM4",
     "MinRange" : 120,
     "MaxRange" : 540,
     "RangeSplit" : [

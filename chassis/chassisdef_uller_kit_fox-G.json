@@ -1,26 +1,26 @@
 {
   "Description": {
-    "Cost": 4801042,
+    "Cost": 5666213,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Koshi",
-    "ID": "chassisdef_koshi_mist_lynx-A",
-    "Name": "Koshi",
+    "UIName": "Uller",
+    "ID": "chassisdef_uller_kit_fox-G",
+    "Name": "Uller",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_koshi-7",
+  "MovementCapDefID": "movedef_uller-6",
   "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_mistlynx",
-  "PrefabIdentifier": "chrprfmech_mistlynxbase-001",
-  "PrefabBase": "mistlynx",
-  "Tonnage": 25,
+  "HardpointDataDefID": "hardpointdatadef_kitfox",
+  "PrefabIdentifier": "chrprfmech_kitfoxbase-001",
+  "PrefabBase": "kitfox",
+  "Tonnage": 30,
   "InitialTonnage": 10.0,
   "weightClass": "LIGHT",
-  "BattleValue": 608000,
-  "MaxJumpjets": 6,
+  "BattleValue": 1368000,
+  "MaxJumpjets": 0,
   "Stability": 100,
   "StabilityDefenses": [
     0,
@@ -36,13 +36,13 @@
   "Signature": 0,
   "Radius": 4,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 25,
-  "MeleeInstability": 25,
+  "MeleeDamage": 30,
+  "MeleeInstability": 30,
   "MeleeToHitModifier": 0,
-  "DFADamage": 25,
+  "DFADamage": 30,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 25,
-  "DFAInstability": 25,
+  "DFASelfDamage": 30,
+  "DFAInstability": 30,
   "Locations": [
     {
       "Location": "Head",
@@ -58,89 +58,82 @@
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 80,
-      "MaxRearArmor": 40,
-      "InternalStructure": 40
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 60,
-      "MaxRearArmor": 30,
-      "InternalStructure": 30
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
     },
     {
       "Location": "LeftTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 60,
-      "MaxRearArmor": 30,
-      "InternalStructure": 30
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
     },
     {
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 40,
+      "MaxArmor": 50,
       "MaxRearArmor": -1,
-      "InternalStructure": 20
+      "InternalStructure": 25
     },
     {
       "Location": "LeftArm",
-      "HardPoints": [
-        {
-          "WeaponMount": "",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 40,
+      "MaxArmor": 50,
       "MaxRearArmor": -1,
-      "InternalStructure": 20
+      "InternalStructure": 25
     },
     {
       "Location": "RightLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 60,
+      "MaxArmor": 70,
       "MaxRearArmor": -1,
-      "InternalStructure": 30
+      "InternalStructure": 35
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 60,
+      "MaxArmor": 70,
       "MaxRearArmor": -1,
-      "InternalStructure": 30
+      "InternalStructure": 35
     }
   ],
   "LOSSourcePositions": [
@@ -187,7 +180,7 @@
       "z": 3.0
     }
   ],
-  "VariantName": "KOS-A",
+  "VariantName": "ULL-G",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -215,8 +208,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Sensor_ECM_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -224,6 +217,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Scout",
+  "StockRole": "Sniper",
   "YangsThoughts": ""
 }

@@ -8,7 +8,7 @@
   "MaxWalkDistance": 210.0,
   "MaxSprintDistance": 420.0,
   "WalkVelocity": 52.5,
-  "RunVelocity": 0.0,
+  "RunVelocity": 82.0,
   "SprintVelocity": 105.0,
   "LimpVelocity": 13.125,
   "WalkAcceleration": 52.5,

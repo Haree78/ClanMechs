@@ -102,7 +102,7 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
