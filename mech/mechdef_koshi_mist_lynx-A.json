@@ -21,7 +21,7 @@
     "UIName": "Koshi A",
     "ID": "mechdef_koshi_mist_lynx-A",
     "Name": "Koshi",
-    "Details": "",
+    "Details": "Weighing in at twenty five tons, the Mist Lynx is a lightweight workhorse OmniMech. The Mist Lynx is a common light OmniMech among the Clans that invaded the Inner Sphere, and is part of the toumans of every clan. Before the Great Refusal, the Mist Lynx was most prominently fielded by Clan Smoke Jaguar and earned the code name Koshi, or -small death-, from the DCMS forces which encountered it during Operation Revival. Designed by Clan Smoke Jaguar around 2910, production of the Mist Lynx was continued by Clans Ice Hellion and Steel Viper after the Annihilation of Clan Smoke Jaguar.",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 480104,
