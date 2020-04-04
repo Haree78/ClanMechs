@@ -1,12 +1,12 @@
 {
   "Description": {
-    "Cost": 4812760,
+    "Cost": 5199479,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Koshi",
-    "ID": "chassisdef_koshi_mist_lynx-PRIME",
+    "ID": "chassisdef_koshi_mist_lynx-C",
     "Name": "Koshi",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
@@ -19,7 +19,7 @@
   "Tonnage": 25,
   "InitialTonnage": 10.0,
   "weightClass": "LIGHT",
-  "BattleValue": 871000,
+  "BattleValue": 1320000,
   "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [
@@ -84,15 +84,11 @@
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -106,7 +102,7 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -179,7 +175,7 @@
       "z": 3.0
     }
   ],
-  "VariantName": "KOS-PRIME",
+  "VariantName": "KOS-C",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -214,8 +210,17 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Sensor_ECM_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
     }
   ],
-  "StockRole": "Scout",
+  "StockRole": "Striker",
   "YangsThoughts": ""
 }
