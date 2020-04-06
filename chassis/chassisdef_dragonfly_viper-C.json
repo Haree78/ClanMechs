@@ -1,27 +1,27 @@
 {
   "Description": {
-    "Cost": 7021688,
+    "Cost": 11114658,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Puma",
-    "ID": "chassisdef_puma_adder-PRIME",
-    "Name": "Puma",
-    "Details": "The Adder was designed by Clan Star Adder in preparation for the invasion of the Inner Sphere. First produced in 3010, the formidable Adder was actually designed as an OmniMech capable of emulating the weapons configurations the Wolf's Dragoons reported as most common for medium Inner Sphere BattleMechs, the 'Mechs most frequently fielded by Successor State armies. Some of these configurations, including B, C, and D, are still used as of 3050. Despite producing such a formidable design, the Star Adders failed to maintain exclusive possession of the Adder; by 3045, the Adder had become common throughout the Clans.",
+    "UIName": "Dragonfly",
+    "ID": "chassisdef_dragonfly_viper-C",
+    "Name": "Dragonfly",
+    "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_puma-6",
-  "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_adder",
-  "PrefabIdentifier": "chrPrfMech_adderbase-001",
-  "PrefabBase": "adder",
-  "Tonnage": 35,
-  "InitialTonnage": 12.5,
-  "weightClass": "LIGHT",
-  "BattleValue": 2083000,
-  "MaxJumpjets": 0,
-  "Stability": 100,
+  "MovementCapDefID": "movedef_dragonfly-8",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_viper",
+  "PrefabIdentifier": "chrPrfMech_viperbase-001",
+  "PrefabBase": "viper",
+  "Tonnage": 40,
+  "InitialTonnage": 20.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 1344000,
+  "MaxJumpjets": 8,
+  "Stability": 130,
   "StabilityDefenses": [
     0,
     0,
@@ -34,15 +34,15 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 4,
+  "Radius": 5,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 35,
-  "MeleeInstability": 35,
+  "MeleeDamage": 40,
+  "MeleeInstability": 40,
   "MeleeToHitModifier": 0,
-  "DFADamage": 35,
+  "DFADamage": 40,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 35,
-  "DFAInstability": 35,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
   "Locations": [
     {
       "Location": "Head",
@@ -63,33 +63,55 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 110,
-      "MaxRearArmor": 55,
-      "InternalStructure": 55
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 80,
-      "MaxRearArmor": 40,
-      "InternalStructure": 40
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "LeftTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 80,
-      "MaxRearArmor": 40,
-      "InternalStructure": 40
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
     },
     {
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -102,6 +124,10 @@
     {
       "Location": "LeftArm",
       "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -118,65 +144,65 @@
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 80,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 40
+      "InternalStructure": 50
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 80,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 40
+      "InternalStructure": 50
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "y": 15.0,
+      "z": 15.0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": 4.0,
+      "y": 14.0,
+      "z": 14.0
     },
     {
-      "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": -4.0,
+      "y": 14.0,
+      "z": 14.0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0.0,
-      "y": 9.5,
-      "z": 9.5
+      "y": 15.0,
+      "z": 15.0
     },
     {
-      "x": -2.5,
-      "y": 8.5,
-      "z": 8.5
+      "x": 4.0,
+      "y": 14.0,
+      "z": 14.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 14.0
     },
     {
       "x": 2.5,
-      "y": 8.5,
-      "z": 8.5
+      "y": 6.0,
+      "z": 6.0
     },
     {
-      "x": -1.5,
-      "y": 3.0,
-      "z": 3.0
-    },
-    {
-      "x": 1.5,
-      "y": 3.0,
-      "z": 3.0
+      "x": -2.5,
+      "y": 6.0,
+      "z": 6.0
     }
   ],
-  "VariantName": "PUM-PRIME",
+  "VariantName": "DRA-C",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -204,8 +230,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TAC_Clan",
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -213,6 +239,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Sniper",
-  "YangsThoughts": "Puma Prime is a a great sniper mech - two ER PPCs with a Targeting Computer forces any opponent to treat this mech with respect. The biggest downside is that the mech tends to run fairly hot, which requires its mechwarrior to manage heat carefully."
+  "StockRole": "Striker",
+  "YangsThoughts": ""
 }

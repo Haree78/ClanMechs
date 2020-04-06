@@ -1,28 +1,28 @@
 {
-  "ChassisID": "chassisdef_puma_adder-A",
+  "ChassisID": "chassisdef_ryoken_stormcrow-D",
   "MechTags": {
     "items": [
       "unit_release",
       "unit_ready",
-      "unit_light",
+      "unit_medium",
       "unit_mech",
       "unit_speed_medium"
     ],
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 7232794,
+    "Cost": 15910363,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Puma A",
-    "ID": "mechdef_puma_adder-A",
-    "Name": "Puma",
-    "Details": "The Adder was designed by Clan Star Adder in preparation for the invasion of the Inner Sphere. First produced in 3010, the formidable Adder was actually designed as an OmniMech capable of emulating the weapons configurations the Wolf's Dragoons reported as most common for medium Inner Sphere BattleMechs, the 'Mechs most frequently fielded by Successor State armies. Some of these configurations, including B, C, and D, are still used as of 3050. Despite producing such a formidable design, the Star Adders failed to maintain exclusive possession of the Adder; by 3045, the Adder had become common throughout the Clans.",
+    "UIName": "Ryoken D",
+    "ID": "mechdef_ryoken_stormcrow-D",
+    "Name": "Ryoken",
+    "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 723279,
+  "simGameMechPartCost": 1591036,
   "Version": 1,
   "Locations": [
     {
@@ -37,71 +37,71 @@
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 80,
-      "CurrentRearArmor": 30,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 80,
-      "AssignedRearArmor": 30
+      "CurrentArmor": 125,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 90,
+      "AssignedArmor": 125,
+      "AssignedRearArmor": 50
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 60,
-      "CurrentRearArmor": 20,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 60,
-      "AssignedRearArmor": 20
+      "CurrentArmor": 85,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 85,
+      "AssignedRearArmor": 45
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "CurrentArmor": 60,
-      "CurrentRearArmor": 20,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 60,
-      "AssignedRearArmor": 20
+      "CurrentArmor": 85,
+      "CurrentRearArmor": 45,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 85,
+      "AssignedRearArmor": 45
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 60,
+      "CurrentArmor": 90,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 60,
+      "CurrentInternalStructure": 45,
+      "AssignedArmor": 90,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 60,
+      "CurrentArmor": 90,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 60,
+      "CurrentInternalStructure": 45,
+      "AssignedArmor": 90,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 70,
+      "CurrentArmor": 125,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 70,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 125,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 70,
+      "CurrentArmor": 125,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 70,
+      "CurrentInternalStructure": 65,
+      "AssignedArmor": 125,
       "AssignedRearArmor": -1
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_Flamer_CFlamer_0-STOCK",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Narc_CNarc_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -110,7 +110,25 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_Narc",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_SRM_CSRM2_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -119,7 +137,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_CSRM2_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -127,8 +145,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -136,8 +154,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -149,6 +167,33 @@
       "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -158,6 +203,15 @@
       "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false

@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_dragonfly-8",
+    "Name": "MovementCapabilitiesDef for Dragonfly",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 240.0,
+  "MaxSprintDistance": 480.0,
+  "WalkVelocity": 60.0,
+  "RunVelocity": 90.0,
+  "SprintVelocity": 120.0,
+  "LimpVelocity": 15.0,
+  "WalkAcceleration": 60.0,
+  "SprintAcceleration": 75.0,
+  "MaxRadialVelocity": 30.0,
+  "MaxRadialAcceleration": 90.0,
+  "MaxJumpVel": 120.0,
+  "MaxJumpAccel": 60.0,
+  "MaxJumpVerticalAccel": 120.0
+}
