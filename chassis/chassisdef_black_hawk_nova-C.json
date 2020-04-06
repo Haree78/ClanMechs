@@ -1,0 +1,208 @@
+{
+  "Description": {
+    "Cost": 10709688,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Black Hawk",
+    "ID": "chassisdef_black_hawk_nova-C",
+    "Name": "Black Hawk",
+    "Details": "",
+    "Icon": "uixTxrIcon_stalker"
+  },
+  "MovementCapDefID": "movedef_blackhawk-5",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_nova",
+  "PrefabIdentifier": "chrprfmech_novabase-001",
+  "PrefabBase": "nova",
+  "Tonnage": 50,
+  "InitialTonnage": 17.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 1515000,
+  "MaxJumpjets": 5,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 50,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "CenterTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftTorso",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 15.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 14.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 14.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 15.0,
+      "z": 15.0
+    },
+    {
+      "x": 4.0,
+      "y": 14.0,
+      "z": 14.0
+    },
+    {
+      "x": -4.0,
+      "y": 14.0,
+      "z": 14.0
+    },
+    {
+      "x": 2.5,
+      "y": 6.0,
+      "z": 6.0
+    },
+    {
+      "x": -2.5,
+      "y": 6.0,
+      "z": 6.0
+    }
+  ],
+  "VariantName": "BLA-C",
+  "ChassisTags": {
+    "items": [
+      "chassis_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ],
+  "StockRole": "Sniper",
+  "YangsThoughts": ""
+}
