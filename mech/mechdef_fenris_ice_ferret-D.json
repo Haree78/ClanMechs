@@ -20,7 +20,7 @@
     "UIName": "Fenris D",
     "ID": "mechdef_fenris_ice_ferret-D",
     "Name": "Fenris",
-    "Details": "",
+    "Details": "A powerful medium scout and recon mech, the Ice Ferret was regarded as something of a foreign concept when it was first encountered by Inner Sphere forces. Referred to as the Fenris by Inner Sphere forces, the Ice Ferret is a very capable medium scout OmniMech, which is well armored and fast, and can be configured as a strike/headhunter or as a fire-support mech.",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 1212236,

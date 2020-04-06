@@ -35,7 +35,7 @@
         "Manufacturer" : "Clans",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "Clan Artemis IV LRM5",
-        "Id" : "Weapon_LRM_CLRM5_0-STOCK",
+        "Id" : "Weapon_LRM_CALRM5_0-STOCK",
         "Name" : "Clan Artemis IV LRM5",
         "Details" : "The smallest rack of Long-Range Missiles, LRM5s are efficient and tend to serve as harassment weapons. Like all LRMs, LRM5s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit. Artemis IV FCS is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the grouping of LRMs.",
         "Icon" : "uixSvgIcon_weapon_Missile"

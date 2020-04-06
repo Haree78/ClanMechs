@@ -8,7 +8,7 @@
     "UIName": "Fenris",
     "ID": "chassisdef_fenris_ice_ferret-A",
     "Name": "Fenris",
-    "Details": "",
+    "Details": "A powerful medium scout and recon mech, the Ice Ferret was regarded as something of a foreign concept when it was first encountered by Inner Sphere forces. Referred to as the Fenris by Inner Sphere forces, the Ice Ferret is a very capable medium scout OmniMech, which is well armored and fast, and can be configured as a strike/headhunter or as a fire-support mech.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_fenris-8",
@@ -209,5 +209,5 @@
     }
   ],
   "StockRole": "Striker",
-  "YangsThoughts": ""
+  "YangsThoughts": "Fenris A is not the best configuration due to an autocannon which is not the best weapon for a light mech. Together with ammo it weights 6 tons, which leaves only 3.5 tons for other weapons."
 }
