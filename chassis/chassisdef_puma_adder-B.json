@@ -1,6 +1,4 @@
 {
-  "modJsonUpperPrefabPathTemplate": "assets/character/mechs/prefabs/chrPrfMech_%sbase-001.prefab",
-  "modJsonLowerPrefabPathTemplate": "assets/character/mechs/prefabs/chrprfmech_%sbase-001.prefab",
   "Description": {
     "Cost": 7052991,
     "Rarity": 3,
