@@ -8,7 +8,7 @@
     "UIName": "Puma",
     "ID": "chassisdef_puma_adder-PRIME",
     "Name": "Puma",
-    "Details": "",
+    "Details": "The Adder was designed by Clan Star Adder in preparation for the invasion of the Inner Sphere. First produced in 3010, the formidable Adder was actually designed as an OmniMech capable of emulating the weapons configurations the Wolf's Dragoons reported as most common for medium Inner Sphere BattleMechs, the 'Mechs most frequently fielded by Successor State armies. Some of these configurations, including B, C, and D, are still used as of 3050. Despite producing such a formidable design, the Star Adders failed to maintain exclusive possession of the Adder; by 3045, the Adder had become common throughout the Clans.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_puma-6",
@@ -214,5 +214,5 @@
     }
   ],
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "Puma Prime is a a great sniper mech - two ER PPCs with a Targeting Computer forces any opponent to treat this mech with respect. The biggest downside is that the mech tends to run fairly hot, which requires its mechwarrior to manage heat carefully."
 }
