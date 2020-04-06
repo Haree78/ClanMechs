@@ -110,15 +110,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TAC_Clan",
-      "ComponentDefType": "",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",

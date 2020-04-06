@@ -1,4 +1,6 @@
 {
+  "modJsonUpperPrefabPathTemplate": "assets/character/mechs/prefabs/chrPrfMech_%sbase-001.prefab",
+  "modJsonLowerPrefabPathTemplate": "assets/character/mechs/prefabs/chrprfmech_%sbase-001.prefab",
   "Description": {
     "Cost": 7232794,
     "Rarity": 3,
@@ -14,7 +16,7 @@
   "MovementCapDefID": "movedef_puma-6",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_adder",
-  "PrefabIdentifier": "chrprfmech_adderbase-001",
+  "PrefabIdentifier": "chrPrfMech_adderbase-001",
   "PrefabBase": "adder",
   "Tonnage": 35,
   "InitialTonnage": 12.5,
