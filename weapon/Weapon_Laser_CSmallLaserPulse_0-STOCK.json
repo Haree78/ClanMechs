@@ -34,9 +34,9 @@
         "Purchasable" : false,
         "Manufacturer" : "Clans",
         "Model" : "Small Pulse Laser",
-        "UIName" : "SLDF S Pulse",
+        "UIName" : "Clan S Pulse",
         "Id" : "Weapon_Laser_CSmallLaserPulse_0-STOCK",
-        "Name" : "SLDF S Pulse",
+        "Name" : "Clan S Pulse",
         "Details" : "An improvement upon standard Small Lasers, Small Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Small Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
