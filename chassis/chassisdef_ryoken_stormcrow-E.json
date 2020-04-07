@@ -8,7 +8,7 @@
     "UIName": "Ryoken",
     "ID": "chassisdef_ryoken_stormcrow-E",
     "Name": "Ryoken",
-    "Details": "",
+    "Details": "The Stormcrow is a wide-spread, second generation OmniMech fielded by many Clans. However, within the Clan Smoke Jaguar touman, the Stormcrow was especially common during the Clan Invasion and was codenamed the Ryoken（a misspelling of ryōken - hunting dog) by the warriors of the DCMS who encountered it. Because of its versatility through its combination of mobility, armor, and firepower in its various configurations, the Stormcrow is a feared opponent on the battlefield.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_ryoken-6",
@@ -235,5 +235,5 @@
     }
   ],
   "StockRole": "Striker",
-  "YangsThoughts": ""
+  "YangsThoughts": "Ryoken E is a medium platform for ATM missiles. Unlike the D configuration it carries decent support weapons: two medium and 4 small extended range lasers which allow it more tactical flexibility."
 }
