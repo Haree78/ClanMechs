@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_supernova-3",
+    "Name": "MovementCapabilitiesDef for Supernova",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 90.0,
+  "MaxSprintDistance": 180.0,
+  "WalkVelocity": 22.5,
+  "RunVelocity": 37.0,
+  "SprintVelocity": 45.0,
+  "LimpVelocity": 5.625,
+  "WalkAcceleration": 22.5,
+  "SprintAcceleration": 28.125,
+  "MaxRadialVelocity": 11.25,
+  "MaxRadialAcceleration": 33.75,
+  "MaxJumpVel": 45.0,
+  "MaxJumpAccel": 22.5,
+  "MaxJumpVerticalAccel": 45.0
+}

@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_blacklanner-7",
+    "Name": "MovementCapabilitiesDef for Black Lanner",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 210.0,
+  "MaxSprintDistance": 540.0,
+  "WalkVelocity": 52.5,
+  "RunVelocity": 105.0,
+  "SprintVelocity": 135.0,
+  "LimpVelocity": 13.125,
+  "WalkAcceleration": 52.5,
+  "SprintAcceleration": 65.625,
+  "MaxRadialVelocity": 26.25,
+  "MaxRadialAcceleration": 78.75,
+  "MaxJumpVel": 105.0,
+  "MaxJumpAccel": 52.5,
+  "MaxJumpVerticalAccel": 105.0
+}

@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_piranha-9",
+    "Name": "MovementCapabilitiesDef for Piranha",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 270.0,
+  "MaxSprintDistance": 540.0,
+  "WalkVelocity": 67.5,
+  "RunVelocity": 105.0,
+  "SprintVelocity": 135.0,
+  "LimpVelocity": 16.875,
+  "WalkAcceleration": 67.5,
+  "SprintAcceleration": 84.375,
+  "MaxRadialVelocity": 33.75,
+  "MaxRadialAcceleration": 101.25,
+  "MaxJumpVel": 135.0,
+  "MaxJumpAccel": 67.5,
+  "MaxJumpVerticalAccel": 135.0
+}
