@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_madcat-5",
+    "Name": "MovementCapabilitiesDef for Mad Cat",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 150.0,
+  "MaxSprintDistance": 300.0,
+  "WalkVelocity": 37.5,
+  "RunVelocity": 60.0,
+  "SprintVelocity": 75.0,
+  "LimpVelocity": 9.375,
+  "WalkAcceleration": 37.5,
+  "SprintAcceleration": 46.875,
+  "MaxRadialVelocity": 18.75,
+  "MaxRadialAcceleration": 56.25,
+  "MaxJumpVel": 75.0,
+  "MaxJumpAccel": 37.5,
+  "MaxJumpVerticalAccel": 75.0
+}
