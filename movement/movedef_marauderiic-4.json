@@ -1,0 +1,21 @@
+{
+  "Description": {
+    "Id": "movedef_marauderiic-4",
+    "Name": "MovementCapabilitiesDef for Marauder IIC",
+    "Details": "",
+    "Icon": ""
+  },
+  "MaxWalkDistance": 120.0,
+  "MaxSprintDistance": 240.0,
+  "WalkVelocity": 30.0,
+  "RunVelocity": 45.0,
+  "SprintVelocity": 60.0,
+  "LimpVelocity": 7.5,
+  "WalkAcceleration": 30.0,
+  "SprintAcceleration": 37.5,
+  "MaxRadialVelocity": 15.0,
+  "MaxRadialAcceleration": 45.0,
+  "MaxJumpVel": 60.0,
+  "MaxJumpAccel": 30.0,
+  "MaxJumpVerticalAccel": 60.0
+}
