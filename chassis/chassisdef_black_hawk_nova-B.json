@@ -8,7 +8,7 @@
     "UIName": "Black Hawk",
     "ID": "chassisdef_black_hawk_nova-B",
     "Name": "Black Hawk",
-    "Details": "",
+    "Details": "The Nova is a versatile medium OmniMech that is capable of acting as a workhorse design in most forces. In fact, the design is so well balanced that it inspired the creation of the Black Hawk-KU, an Inner Sphere design based on the Nova and named using the Inner Sphere code name for this Mech: Black Hawk. The Black Hawk's debut battle was the combined assault on Kindraa Smythe-Jewel on Foster in 2872 launched by the Hell's Horses, Clan Coyote and Kindraa Payne that saw the Smythe-Jewels wiped out as a faction.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_blackhawk-5",
@@ -185,7 +185,7 @@
       "z": 6.0
     }
   ],
-  "VariantName": "BLA-B",
+  "VariantName": "BLC-B",
   "ChassisTags": {
     "items": [
       "chassis_clan"
@@ -213,5 +213,5 @@
     }
   ],
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "Black Hawk B is another sniper variant of the omni-mech with average firepower and no overheating problems. Unfortunately mech carriers mediocre support armament which includes extended range small laser and a pair of machine guns."
 }
