@@ -8,7 +8,7 @@
     "UIName": "Thor",
     "ID": "chassisdef_thor_summoner-F",
     "Name": "Thor",
-    "Details": "",
+    "Details": "The Summoner is a highly mobile heavy OmniMech that is commonly used by Clan Jade Falcon in a wide variety of roles. Barely a second generation OmniMech, the Jade Falcons introduced the Summoner just after becoming the first Clan to win OmniMech technology from Clan Coyote in 2863. The Summoner was dubbed Thor, its Inner Sphere reporting name, by Victor Steiner-Davion himself after fighting one on Trellwan. The name was supposedly inspired by the weapons loadout (in Prime configuration): a PPC and an AC, lightning and thunder, which are associated with the Norse god Thor.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_thor-5",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_summonerbase-001",
   "PrefabBase": "summoner",
   "Tonnage": 70,
-  "InitialTonnage": 29.0,
+  "InitialTonnage": 33.0,
   "weightClass": "HEAVY",
   "BattleValue": 2186000,
   "MaxJumpjets": 5,
@@ -218,5 +218,5 @@
     }
   ],
   "StockRole": "Skirmisher",
-  "YangsThoughts": ""
+  "YangsThoughts": "Thor F is a decent support mech which carries two Ultra Autocannons 5, two extended range medium lasers and an lrm missile launcher. This armament allows it to engage its target efficiently at various ranges."
 }
