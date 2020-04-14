@@ -19,7 +19,7 @@
     "UIName": "Vulture PRIME",
     "ID": "mechdef_vulture_mad_dog-PRIME",
     "Name": "Vulture",
-    "Details": "",
+    "Details": "The Mad Dog is a heavy Clan OmniMech used for long-range indirect fire support. With hunched shoulders, a protruding head, and reverse-jointed legs, the Mad Dog resembles a vulture, so much so that it was codenamed Vulture and Hagetaka (Vulture in Japanese) by the Inner Sphere forces which first encountered it. With its ample firepower and decent speed of 86.4 km/h, it makes a highly mobile firing platform, and as such has spread to near ubiquity among the forces deployed by the Clans, although the design is favored more by Clan Ghost Bear MechWarriors. The Mad Dog carries eight and a half tons of Ferro-Fibrous armor for decent protection, although it will not be able to stand up to heavy fire.",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 1529200,
@@ -167,6 +167,24 @@
       "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+        {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
