@@ -18,9 +18,9 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "RiflemanIIC 2",
+    "UIName": "Rifleman IIC 2",
     "ID": "mechdef_rifleman_iic-2",
-    "Name": "RiflemanIIC",
+    "Name": "Rifleman IIC",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
