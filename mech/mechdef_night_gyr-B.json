@@ -18,9 +18,9 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Night Gyr B",
+    "UIName": "NightGyr B",
     "ID": "mechdef_night_gyr-B",
-    "Name": "Night Gyr",
+    "Name": "NightGyr",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
@@ -175,7 +175,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -184,7 +184,7 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -193,7 +193,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -202,7 +202,7 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,

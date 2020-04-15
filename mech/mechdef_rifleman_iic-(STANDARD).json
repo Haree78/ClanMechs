@@ -18,9 +18,9 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Rifleman IIC (STANDARD)",
+    "UIName": "RiflemanIIC (STANDARD)",
     "ID": "mechdef_rifleman_iic-(STANDARD)",
-    "Name": "Rifleman IIC",
+    "Name": "RiflemanIIC",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
@@ -112,7 +112,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -130,7 +130,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -175,7 +175,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
