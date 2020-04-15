@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_summonerbase-001",
   "PrefabBase": "summoner",
   "Tonnage": 70,
-  "InitialTonnage": 33.0,
+  "InitialTonnage": 29.0,
   "weightClass": "HEAVY",
   "BattleValue": 2379000,
   "MaxJumpjets": 5,
