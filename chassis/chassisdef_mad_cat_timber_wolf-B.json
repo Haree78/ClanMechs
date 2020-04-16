@@ -8,7 +8,7 @@
     "UIName": "Mad Cat",
     "ID": "chassisdef_mad_cat_timber_wolf-B",
     "Name": "Mad Cat",
-    "Details": "",
+    "Details": "Vaguely resembling a cross-over between the MAD (Marauder) and CAT (Catapult) series, the Timber Wolf was tagged with the Inner Sphere reporting name Mad Cat on first contact. (The targeting computer on Phelan Kell's Wolfhound switched between MAD and CAT when trying to identify it; upon analyzing the data recording from Kell's 'Mech, Precentor Martial Anastasius Focht later officially designated it Mad Cat.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_madcat-5",
@@ -214,5 +214,5 @@
     }
   ],
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "Mad Cat B is a variant which has some decent ideas spoiled by controversioal execution. The list of flaws include one ton of ammo for a Gauss rifle and subpar support weapons."
 }

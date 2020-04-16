@@ -8,7 +8,7 @@
     "UIName": "MadCat",
     "ID": "chassisdef_mad_cat_timber_wolf-S",
     "Name": "MadCat",
-    "Details": "",
+    "Details": "Vaguely resembling a cross-over between the MAD (Marauder) and CAT (Catapult) series, the Timber Wolf was tagged with the Inner Sphere reporting name Mad Cat on first contact. (The targeting computer on Phelan Kell's Wolfhound switched between MAD and CAT when trying to identify it; upon analyzing the data recording from Kell's 'Mech, Precentor Martial Anastasius Focht later officially designated it Mad Cat.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_madcat-5",
@@ -234,5 +234,5 @@
     }
   ],
   "StockRole": "Skirmisher",
-  "YangsThoughts": ""
+  "YangsThoughts": "Mad Cat S is the only jumping variant of the famous omni-mech. Its jumping capabilities and close-range armament make it highly efficient in urban environemnt."
 }

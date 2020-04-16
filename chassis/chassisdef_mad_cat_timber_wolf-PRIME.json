@@ -205,7 +205,7 @@
             "z": 0
         }
     ],
-    "VariantName": "TBR-PRIME",
+    "VariantName": "MAD-PRIME",
     "ChassisTags": {
         "items": [
 			"chassis_ferro",
@@ -214,7 +214,7 @@
         "tagSetSourceFile": ""
     },
     "StockRole": "Brawler & Close Assault",
-    "YangsThoughts": "The Orion K was the first true heavy 'Mech. As a multirole brawler, the Orion can engage enemies at a variety of ranges, and with plenty of armor, it can survive combined fire for quite some time. Slow, yes\u2014but powerful.",
+    "YangsThoughts": "Mad Cat Prime carries a combination of energy and missile weapons which allows it to fight efficiently at different ranges. Despite the significant firepower the mechwarrior needs to manahe heat with care and conserve missile ammo which is limited to two tons.",
     "FixedEquipment" : [
         {
             "MountedLocation" : "LeftTorso",
