@@ -8,7 +8,7 @@
     "UIName": "Black Lanner",
     "ID": "chassisdef_black_lanner-D",
     "Name": "Black Lanner",
-    "Details": "",
+    "Details": "Newly developed by Clan Jade Falcon for the Clan Invasion of the Inner Sphere, the Black Lanner is a fast medium OmniMech that can take on a variety of roles. While used for independent operations, the Black Lanner is most frequently seen in conjunction with lighter designs. Mixed Stars of Black Lanners, Fire Falcons and Fire Moths are common, with the lighter 'Mechs acting as spotters and harassers for the heavier 'Mechs, flushing out the opposing units for the Black Lanner to move in for the kill. This synergistic relationship is similar to that shared between the smaller indigenous Fire Falcon and the introduced black lanners on Ironhold, both birds benefiting from the presence of the other.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_blacklanner-7",
@@ -247,7 +247,7 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_MASC_1_Clan",
+      "ComponentDefID": "Gear_MASC_2_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -256,5 +256,5 @@
     }
   ],
   "StockRole": "Skirmisher",
-  "YangsThoughts": ""
+  "YangsThoughts": "Black Lanner D is a support mech which is most efficient when attacking targets previously damaged by its lancemates. This ways it can maximize its weapon efficiency to deal the most critical hits."
 }
