@@ -17,9 +17,10 @@
   "PrefabIdentifier": "chrprfmech_kodiakbase-001",
   "PrefabBase": "kodiak",
   "Tonnage": 100,
-  "InitialTonnage": 38.5,
+  "InitialTonnage": 39.5,
   "weightClass": "ASSAULT",
   "BattleValue": 3067000,
+  "Heatsinks": 6,
   "MaxJumpjets": 0,
   "Stability": 200,
   "StabilityDefenses": [

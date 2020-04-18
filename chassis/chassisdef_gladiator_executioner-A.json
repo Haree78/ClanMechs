@@ -229,7 +229,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_MASC_1_Clan",
+      "ComponentDefID": "Gear_MASC_4_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

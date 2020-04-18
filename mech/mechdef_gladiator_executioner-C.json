@@ -101,6 +101,24 @@
   ],
   "inventory": [
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
@@ -131,6 +149,15 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
@@ -183,6 +210,15 @@
     },
     {
       "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_JumpJet_Generic_Assault",
       "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
@@ -194,6 +230,15 @@
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_JumpJet_Generic_Assault",
       "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
