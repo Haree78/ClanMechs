@@ -22,7 +22,7 @@
     "ID": "mechdef_black_hawk_nova-A",
     "Name": "Black Hawk",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_blackhawk"
   },
   "simGameMechPartCost": 1142687,
   "Version": 1,

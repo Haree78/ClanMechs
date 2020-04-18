@@ -9,7 +9,7 @@
     "ID": "chassisdef_man_o_war_gargoyle-D",
     "Name": "ManOWar",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_gargoyle"
   },
   "MovementCapDefID": "movedef_manowar-5",
   "PathingCapDefID": "pathingdef_assault",

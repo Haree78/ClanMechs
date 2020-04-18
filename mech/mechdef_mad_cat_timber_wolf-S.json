@@ -22,7 +22,7 @@
     "ID": "mechdef_mad_cat_timber_wolf-S",
     "Name": "MadCat",
     "Details": "Vaguely resembling a cross-over between the MAD (Marauder) and CAT (Catapult) series, the Timber Wolf was tagged with the Inner Sphere reporting name Mad Cat on first contact. (The targeting computer on Phelan Kell's Wolfhound switched between MAD and CAT when trying to identify it; upon analyzing the data recording from Kell's 'Mech, Precentor Martial Anastasius Focht later officially designated it Mad Cat.",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_madcat"
   },
   "simGameMechPartCost": 2417351,
   "Version": 1,

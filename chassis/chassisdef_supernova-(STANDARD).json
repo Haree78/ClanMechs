@@ -9,7 +9,7 @@
     "ID": "chassisdef_supernova-(STANDARD)",
     "Name": "Supernova",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_supernova"
   },
   "MovementCapDefID": "movedef_supernova-3",
   "PathingCapDefID": "pathingdef_assault",

@@ -22,7 +22,7 @@
     "ID": "mechdef_night_gyr-PRIME",
     "Name": "Night Gyr",
     "Details": "The Night Gyr came back with Clan Jade Falcon leaders following their return to the Clan homeworlds in 3051 to elect a new ilKhan. It has become more prevalent in the Falcon touman following the Refusal War. No expense was spared in the manufacture of this OmniMech that uses an XL Engine and Endo Steel to save weight. It also incorporates eleven and a half tons of Ferro-Fibrous armor. Though it is on the slow end for a Clan heavy 'Mech, the Night Gyr mounts four fixed jump jets that enable it to jump up to 120 meters in a single bound. The design was a testbed for some new technologies, including the Laser Heat Sink, which was eventually phased out due to a lack of increased performance.",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_nightgyr"
   },
   "simGameMechPartCost": 2056578,
   "Version": 1,
