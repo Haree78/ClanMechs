@@ -9,7 +9,7 @@
         240,
         360
     ],
-    "AmmoCategory" : "SRM",
+    "ammoCategoryID" : "SRM",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 12,
     "Damage" : 8,
@@ -29,15 +29,15 @@
     "Instability" : 4,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
     "Description" : {
-        "Cost" : 90000,
-        "Rarity" : 0,
+        "Cost" : 285000,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
-        "Model" : "SRM Missile Launcher",
-        "UIName" : "Clan Artemis IV  SRM6",
+        "Model" : "Short-Range Missile Launcher",
+        "UIName" : "Clan Artemis SRM6",
         "Id" : "Weapon_SRM_CASRM6_0-STOCK",
-        "Name" : "Clan Artemis IV SRM6",
-        "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges.",
+        "Name" : "Clan Artemis SRM6",
+        "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons. Artemis IV FCS is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy and stability damage of SRMs.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -60,8 +60,7 @@
             "component_type_clan",
             "component_type_lostech",
             "range_standard",
-			"BLACKLISTED",
-			"component_streak"
+            "component_artemis"
         ],
         "tagSetSourceFile" : ""
     }

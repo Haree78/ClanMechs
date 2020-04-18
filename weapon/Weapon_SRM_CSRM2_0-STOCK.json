@@ -3,13 +3,13 @@
     "Type" : "SRM",
     "WeaponSubType" : "SRM4",
     "MinRange" : 0,
-    "MaxRange" : 360,
+    "MaxRange" : 270,
     "RangeSplit" : [
-        240,
-        240,
-        360
+        180,
+        180,
+        270
     ],
-    "AmmoCategory" : "SRM",
+    "ammoCategoryID" : "SRM",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 4,
     "Damage" : 8,
@@ -23,17 +23,17 @@
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
-    "ShotsWhenFired" : 4,
+    "ShotsWhenFired" : 2,
     "ProjectilesPerShot" : 1,
     "AttackRecoil" : 1,
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
     "Description" : {
         "Cost" : 30000,
-        "Rarity" : 0,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
-        "Model" : "Streak Missile Launcher",
+        "Model" : "Short-Range Missile Launcher",
         "UIName" : "Clan SRM2",
         "Id" : "Weapon_SRM_CSRM2_0-STOCK",
         "Name" : "Clan SRM2",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_standard",
-			"BLACKLISTED"
+            "range_standard"
         ],
         "tagSetSourceFile" : ""
     }

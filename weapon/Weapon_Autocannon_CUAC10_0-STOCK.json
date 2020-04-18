@@ -3,11 +3,11 @@
     "Type" : "Autocannon",
     "WeaponSubType" : "UAC10",
     "MinRange" : 0,
-    "MaxRange" : 450,
+    "MaxRange" : 540,
     "RangeSplit" : [
-        300,
-        300,
-        450
+        360,
+        360,
+        540
     ],
     "AmmoCategory" : "AC10",
     "StartingAmmoCapacity" : 0,
@@ -58,9 +58,8 @@
         "items" : [
             "component_type_stock",
             "range_long",
-	                "component_type_clan",
-            "component_type_lostech",
-            "BLACKLISTED"
+	        "component_type_clan",
+            "component_type_lostech"
         ],
         "tagSetSourceFile" : ""
     }

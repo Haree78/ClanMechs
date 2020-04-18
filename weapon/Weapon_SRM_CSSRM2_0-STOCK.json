@@ -29,15 +29,15 @@
     "Instability" : 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM2",
     "Description" : {
-        "Cost" : 30000,
-        "Rarity" : 0,
+        "Cost" : 40000,
+        "Rarity" : 99,
         "Purchasable" : true,
-        "Manufacturer" : "Holly",
+        "Manufacturer" : "Clans",
         "Model" : "Streak Missile Launcher",
         "UIName" : "Clan Streak SRM2",
         "Id" : "Weapon_SRM_CSSRM2_0-STOCK",
         "Name" : "Clan Streak SRM2",
-        "Details" : "A tiny rack of Short-Range Missiles, SRM2s deal little damage but also cost almost nothing in the way of weight, space, heat, or ammunition consumption. As for all SRMs, SRM2 shots deal above-average stability impact per hit compared to other weapons. The Streak Missile Launcher is a specialized version of the standard Short Range Missile launcher which withholds fire until it receives a solid lock ensuring all missiles will hit. If the launcher cannot gain a lock on the target the missiles won't fire.  Streak launchers are good for hitting evading targets as they ignore 2 evasive charges.",
+        "Details" : "A tiny rack of Short-Range Missiles, SRM2s deal little damage but also cost almost nothing in the way of weight, space, heat, or ammunition consumption. As for all SRMs, SRM2 shots deal above-average stability impact per hit compared to other weapons. The Streak Missile Launcher is a specialized version of the standard Short Range Missile launcher which withholds fire until it receives a solid lock ensuring all missiles will hit. If the launcher cannot gain a lock on the target the missiles won't fire.  Streak launchers are good for hitting evading targets as they ignore 2 evasive charges. Clan Streak launchers have extended range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -60,7 +60,6 @@
             "component_type_clan",
             "component_type_lostech",
             "range_standard",
-			"BLACKLISTED",
 			"component_streak"
         ],
         "tagSetSourceFile" : ""

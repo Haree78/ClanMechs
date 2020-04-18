@@ -2,12 +2,12 @@
     "Category" : "Ballistic",
     "Type" : "Autocannon",
     "WeaponSubType" : "UAC2",
-    "MinRange" : 90,
-    "MaxRange" : 780,
+    "MinRange" : 60,
+    "MaxRange" : 810,
     "RangeSplit" : [
-        510,
-        510,
-        780
+        540,
+        540,
+        810
     ],
     "AmmoCategory" : "AC2",
     "StartingAmmoCapacity" : 0,
@@ -58,9 +58,8 @@
         "items" : [
             "component_type_stock",
             "range_extreme",
-	    "component_type_clan",
-            "component_type_lostech",
-            "BLACKLISTED"
+			"component_type_clan",
+            "component_type_lostech"
         ],
         "tagSetSourceFile" : ""
     }

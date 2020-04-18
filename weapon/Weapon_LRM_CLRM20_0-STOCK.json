@@ -2,7 +2,7 @@
     "Category" : "Missile",
     "Type" : "LRM",
     "WeaponSubType" : "LRM20",
-    "MinRange" : 180,
+    "MinRange" : 0,
     "MaxRange" : 630,
     "RangeSplit" : [
         420,
@@ -29,15 +29,15 @@
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM20",
     "Description" : {
-        "Cost" : 290000,
-        "Rarity" : 100,
+        "Cost" : 435000,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "Clan LRM20",
         "Id" : "Weapon_LRM_CLRM20_0-STOCK",
         "Name" : "Clan LRM20",
-        "Details" : "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
+        "Details" : "Often found as the secondary weapon on heavier units, LRM20 racks of Long-Range Missiles can deal decent damage while a unit closes range, but they chew through ammunition. Like all LRMs, LRM20s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit. Clan LRMs do not have a minimum range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_extreme",
-			"BLACKLISTED"
+            "range_extreme"
         ],
         "tagSetSourceFile" : ""
     }

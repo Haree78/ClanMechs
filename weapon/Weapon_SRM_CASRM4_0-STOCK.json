@@ -9,7 +9,7 @@
         240,
         360
     ],
-    "AmmoCategory" : "SRM",
+    "ammoCategoryID" : "SRM",
     "StartingAmmoCapacity" : 0,
     "HeatGenerated" : 8,
     "Damage" : 8,
@@ -29,14 +29,14 @@
     "Instability" : 4,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
     "Description" : {
-        "Cost" : 160000,
-        "Rarity" : 0,
+        "Cost" : 240000,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
         "Model" : "Short-Range Missile Launcher",
-        "UIName" : "Clan Artemis IV SRM4",
+        "UIName" : "Clan Artemis SRM4",
         "Id" : "Weapon_SRM_CASRM4_0-STOCK",
-        "Name" : "Clan Artemis IV SRM4",
+        "Name" : "Clan Artemis SRM4",
         "Details" : "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons. Artemis IV FCS is a guidance system that utilizes an infrared laser designator and tight-beam microwave transmitter which improves the accuracy and stability damage of SRMs.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
@@ -57,9 +57,9 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
+            "component_type_clan",
             "component_type_lostech",
             "range_standard",
-	     "component_type_clan",
             "component_artemis"
         ],
         "tagSetSourceFile" : ""

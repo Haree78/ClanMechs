@@ -5,9 +5,9 @@
     "MinRange" : 0,
     "MaxRange" : 360,
     "RangeSplit" : [
-        210,
-        210,
-        330
+        240,
+        240,
+        360
     ],
     "ammoCategoryID" : "Narc",
     "StartingAmmoCapacity" : 0,
@@ -29,14 +29,14 @@
     "Instability" : 0,
     "WeaponEffectID" : "WeaponEffect-Weapon_Narc",
     "Description" : {
-        "Cost" : 310000,
-        "Rarity" : 0,
+        "Cost" : 465000,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
         "Model" : "Missile Tracking Launcher",
         "UIName" : "Clan Narc Beacon",
         "Id" : "Weapon_Narc_CNarc_0-STOCK",
-        "Name" : "Clan Narc Missile Beacon",
+        "Name" : "Clan Narc Beacon",
         "Details" : "The Narc Missile Beacon launcher is designed to fire a single, highly specialized missile that deploys a homing beacon upon impact. The attached beacon transmits data to allied units, causing the linked target to receive increased damage from subsequent Missile weaponry attacks.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
@@ -143,7 +143,7 @@
         "items" : [
             "component_type_stock",
             "range_standard",
-	                "component_type_clan",
+	        "component_type_clan",
             "component_type_lostech"
         ],
         "tagSetSourceFile" : ""

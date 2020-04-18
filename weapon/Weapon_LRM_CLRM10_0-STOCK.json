@@ -29,15 +29,15 @@
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM10",
     "Description" : {
-        "Cost" : 290000,
-        "Rarity" : 100,
+        "Cost" : 225000,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "Clan LRM10",
         "Id" : "Weapon_LRM_CLRM10_0-STOCK",
         "Name" : "Clan LRM10",
-        "Details" : "The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
+        "Details" : "The LRM10 rack of Long-Range Missiles occupies a supporting fire role when mounted on most units, with fairly low damage balanced by low heat and ammunition consumption. Like all LRMs, LRM10s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit. Clan LRMs do not have a minimum range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_extreme",
-			"BLACKLISTED"
+            "range_extreme"
         ],
         "tagSetSourceFile" : ""
     }

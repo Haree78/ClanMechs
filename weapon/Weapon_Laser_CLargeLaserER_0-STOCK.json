@@ -19,7 +19,7 @@
     "DamageVariance" : 0,
     "HeatDamage" : 0,
     "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1.25,
+    "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -29,15 +29,15 @@
     "Instability" : 0,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Large",
     "Description" : {
-        "Cost" : 610000,
-        "Rarity" : 100,
+        "Cost" : 915000,
+        "Rarity" : 99,
         "Purchasable" : false,
         "Manufacturer" : "Clans",
         "Model" : "Extended-Range Large Laser",
         "UIName" : "Clan ER L Laser",
         "Id" : "Weapon_Laser_CLargeLaserER_0-STOCK",
         "Name" : "Clan ER L Laser",
-        "Details" : "An improvement upon standard Large Lasers, Extended-Range Large Lasers extend their effective range at the cost of massive heat generation. Like all Lasers, ER Large Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Details" : "An improvement upon standard Large Lasers, Extended-Range Large Lasers extend their effective range at the cost of massive heat generation. Like all Lasers, ER Large Lasers enjoy a baseline accuracy bonus over other weapons. Clan Extended Range weapons are longer range than their Inner Sphere counterparts.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_very-long",
-			"BLACKLISTED"
+            "range_extreme"
         ],
         "tagSetSourceFile" : ""
     }

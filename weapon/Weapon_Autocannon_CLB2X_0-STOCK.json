@@ -3,11 +3,11 @@
     "Type" : "Autocannon",
     "WeaponSubType" : "LB2X",
     "MinRange" : 120,
-    "MaxRange" : 780,
+    "MaxRange" : 810,
     "RangeSplit" : [
-        510,
-        510,
-        780
+        540,
+        540,
+        810
     ],
     "AmmoCategory" : "NotSet",
     "ammoCategoryID" : "LB2X",
@@ -30,7 +30,7 @@
     "Instability" : 1,
     "WeaponEffectID" : "WeaponEffect-Weapon_LB2X",
     "Description" : {
-        "Cost" : 150000,
+        "Cost" : 225000,
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
@@ -59,7 +59,7 @@
         "items" : [
             "component_type_stock",
             "range_extreme",
-	    "component_type_clan",
+			"component_type_clan",
             "component_type_lostech",
             "BLACKLISTED"
         ],

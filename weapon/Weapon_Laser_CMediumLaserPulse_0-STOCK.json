@@ -15,10 +15,10 @@
     "Damage" : 35,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 1,
+    "EvasivePipsIgnored" : 3,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : -1,
+    "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
@@ -29,15 +29,15 @@
     "Instability" : 0,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Medium",
     "Description" : {
-        "Cost" : 360000,
-        "Rarity" : 100,
+        "Cost" : 540000,
+        "Rarity" : 99,
         "Purchasable" : false,
         "Manufacturer" : "Clans",
         "Model" : "Medium Pulse Laser",
         "UIName" : "Clan M Pulse",
         "Id" : "Weapon_Laser_CMediumLaserPulse_0-STOCK",
         "Name" : "Clan M Pulse",
-        "Details" : "An improvement upon standard Medium Lasers, Medium Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with increased heat and weight. Like all Lasers, Medium Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Details" : "An improvement upon standard Medium Lasers, Medium Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with increased heat and weight. Medium Pulse Lasers are more effective at applying damage to a moving target, they ignore three evasive charges. Clan Pulse weapons are longer range than their Inner Sphere counterparts.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_standard",
-			"BLACKLISTED"
+            "range_standard"
         ],
         "tagSetSourceFile" : ""
     }

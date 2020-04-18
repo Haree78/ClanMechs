@@ -15,10 +15,10 @@
     "Damage" : 50,
     "OverheatedDamageMultiplier" : 0,
     "EvasiveDamageMultiplier" : 0,
-    "EvasivePipsIgnored" : 1,
+    "EvasivePipsIgnored" : 2,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : -1,
+    "AccuracyModifier" : 0,
     "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
@@ -29,15 +29,15 @@
     "Instability" : 0,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserPulse_Large",
     "Description" : {
-        "Cost" : 810000,
-        "Rarity" : 100,
+        "Cost" : 1215000,
+        "Rarity" : 99,
         "Purchasable" : false,
         "Manufacturer" : "Clans",
         "Model" : "Large Pulse Laser",
         "UIName" : "Clan L Pulse",
         "Id" : "Weapon_Laser_CLargeLaserPulse_0-STOCK",
         "Name" : "Clan L Pulse",
-        "Details" : "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Like all Lasers, Large Pulse Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Details" : "An improvement upon standard Large Lasers, Large Pulse Lasers use pulses of light instead of a single beam. This results in better accuracy and damage output but with greatly increased heat and weight. Large Pulse Lasers are more effective at applying damage to a moving target, they ignore two evasive charges. Clan Pulse weapons are longer range than their Inner Sphere counterparts.",
         "Icon" : "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_long",
-			"BLACKLISTED"
+            "range_long"
         ],
         "tagSetSourceFile" : ""
     }

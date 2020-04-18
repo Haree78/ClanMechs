@@ -29,7 +29,7 @@
     "Instability" : 5,
     "WeaponEffectID" : "WeaponEffect-Weapon_LB10X",
     "Description" : {
-        "Cost" : 230000,
+        "Cost" : 345000,
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
@@ -58,7 +58,7 @@
         "items" : [
             "component_type_stock",
             "range_long",
-	    "component_type_clan",
+			"component_type_clan",
             "component_type_lostech",
             "BLACKLISTED"
         ],

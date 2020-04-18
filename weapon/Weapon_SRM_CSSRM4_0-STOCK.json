@@ -29,15 +29,15 @@
     "Instability" : 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
     "Description" : {
-        "Cost" : 60000,
-        "Rarity" : 0,
+        "Cost" : 120000,
+        "Rarity" : 99,
         "Purchasable" : true,
-        "Manufacturer" : "Holly",
+        "Manufacturer" : "Clans",
         "Model" : "Streak Missile Launcher",
         "UIName" : "Clan Streak SRM4",
         "Id" : "Weapon_SRM_CSSRM4_0-STOCK",
         "Name" : "Clan Streak SRM4",
-        "Details" : "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges.",
+        "Details" : "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges. Clan Streak launchers have extended range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -60,7 +60,6 @@
             "component_type_clan",
             "component_type_lostech",
             "range_standard",
-			"BLACKLISTED",
 			"component_streak"
         ],
         "tagSetSourceFile" : ""

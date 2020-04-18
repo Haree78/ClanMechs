@@ -29,15 +29,15 @@
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_LRM5",
     "Description" : {
-        "Cost" : 290000,
-        "Rarity" : 100,
+        "Cost" : 120000,
+        "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
         "Model" : "Long-Range Missile Launcher",
         "UIName" : "Clan LRM5",
         "Id" : "Weapon_LRM_CLRM5_0-STOCK",
         "Name" : "Clan LRM5",
-        "Details" : "The smallest rack of Long-Range Missiles, LRM5s are efficient and tend to serve as harassment weapons. Like all LRMs, LRM5s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit.",
+        "Details" : "The smallest rack of Long-Range Missiles, LRM5s are efficient and tend to serve as harassment weapons. Like all LRMs, LRM5s are capable of indirect fire over obstacles and terrain with the benefit of a spotter unit. Clan LRMs do not have a minimum range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_extreme",
-			"BLACKLISTED"
+            "range_extreme"
         ],
         "tagSetSourceFile" : ""
     }

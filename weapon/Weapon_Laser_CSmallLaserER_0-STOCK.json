@@ -18,8 +18,8 @@
     "EvasivePipsIgnored" : 0,
     "DamageVariance" : 0,
     "HeatDamage" : 0,
-    "AccuracyModifier" : -1,
-    "CriticalChanceMultiplier" : 1.25,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1,
     "AOECapable" : false,
     "IndirectFireCapable" : false,
     "RefireModifier" : 0,
@@ -29,15 +29,15 @@
     "Instability" : 0,
     "WeaponEffectID" : "WeaponEffect-Weapon_LaserER_Small",
     "Description" : {
-        "Cost" : 220000,
-        "Rarity" : 100,
+        "Cost" : 330000,
+        "Rarity" : 99,
         "Purchasable" : false,
         "Manufacturer" : "Clans",
         "Model" : "Extended-Range Small Laser",
         "UIName" : "Clan ER S Laser",
         "Id" : "Weapon_Laser_CSmallLaserER_0-STOCK",
         "Name" : "Clan ER S Laser",
-        "Details" : "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. Like all Lasers, ER Small Lasers enjoy a baseline accuracy bonus over other weapons.",
+        "Details" : "An improvement upon standard Small Lasers, Extended-Range Small Lasers extend their effective range at the cost of more heat generation. Like all Lasers, ER Small Lasers enjoy a baseline accuracy bonus over other weapons. Clan Extended Range weapons are longer range than their Inner Sphere counterparts.",
         "Icon" : "uixSvgIcon_weapon_Support"
     },
     "BonusValueA" : "",
@@ -59,8 +59,7 @@
             "component_type_stock",
             "component_type_clan",
             "component_type_lostech",
-            "range_close",
-			"BLACKLISTED"
+            "range_close"
         ],
         "tagSetSourceFile" : ""
     }

@@ -3,11 +3,11 @@
     "Type" : "Autocannon",
     "WeaponSubType" : "LB5X",
     "MinRange" : 90,
-    "MaxRange" : 660,
+    "MaxRange" : 630,
     "RangeSplit" : [
         390,
         390,
-        570
+        630
     ],
     "ammoCategoryID" : "LB5X",
     "StartingAmmoCapacity" : 0,
@@ -29,7 +29,7 @@
     "Instability" : 2,
     "WeaponEffectID" : "WeaponEffect-Weapon_LB5X",
     "Description" : {
-        "Cost" : 170000,
+        "Cost" : 255000,
         "Rarity" : 99,
         "Purchasable" : true,
         "Manufacturer" : "Clans",
@@ -58,7 +58,7 @@
         "items" : [
             "component_type_stock",
             "range_very-long",
-	     "component_type_clan",
+			"component_type_clan",
             "component_type_lostech",
             "BLACKLISTED"
         ],

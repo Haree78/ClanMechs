@@ -29,15 +29,15 @@
     "Instability" : 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM6",
     "Description" : {
-        "Cost" : 90000,
-        "Rarity" : 0,
+        "Cost" : 180000,
+        "Rarity" : 99,
         "Purchasable" : true,
-        "Manufacturer" : "Holly",
+        "Manufacturer" : "Clans",
         "Model" : "Streak Missile Launcher",
         "UIName" : "Clan Streak SRM6",
         "Id" : "Weapon_SRM_CSSRM6_0-STOCK",
         "Name" : "Clan Streak SRM6",
-        "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges.",
+        "Details" : "SRM6s are the largest available rack of Short-Range Missiles and pack considerable punch while also being lightweight. As for all SRMs, SRM6 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges. Clan Streak launchers have extended range.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
@@ -60,7 +60,6 @@
             "component_type_clan",
             "component_type_lostech",
             "range_standard",
-			"BLACKLISTED",
 			"component_streak"
         ],
         "tagSetSourceFile" : ""
