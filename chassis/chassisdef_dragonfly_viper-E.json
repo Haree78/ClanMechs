@@ -9,7 +9,7 @@
     "ID": "chassisdef_dragonfly_viper-E",
     "Name": "Dragonfly",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_dragonfly"
   },
   "MovementCapDefID": "movedef_dragonfly-8",
   "PathingCapDefID": "pathingdef_medium",
