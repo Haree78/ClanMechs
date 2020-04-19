@@ -1,0 +1,217 @@
+{
+  "Description": {
+    "Cost": 18150172,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Loki",
+    "ID": "chassisdef_loki_hellbringer-B",
+    "Name": "Loki",
+    "Details": "",
+    "Icon": "uixTxrIcon_stalker"
+  },
+  "MovementCapDefID": "movedef_loki-5",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_hellbringer",
+  "PrefabIdentifier": "chrprfmech_hellbringerbase-001",
+  "PrefabBase": "hellbringer",
+  "Tonnage": 65,
+  "InitialTonnage": 25.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 1592000,
+  "MaxJumpjets": 0,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 65,
+  "MeleeInstability": 65,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "CenterTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightTorso",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0.0,
+      "y": 18.0,
+      "z": 18.0
+    },
+    {
+      "x": 4.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": -4.0,
+      "y": 16.0,
+      "z": 16.0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0.0,
+      "y": 18.0,
+      "z": 18.0
+    },
+    {
+      "x": 4.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": -4.0,
+      "y": 16.0,
+      "z": 16.0
+    },
+    {
+      "x": 3.0,
+      "y": 6.0,
+      "z": 6.0
+    },
+    {
+      "x": -3.0,
+      "y": 6.0,
+      "z": 6.0
+    }
+  ],
+  "VariantName": "LOK-B",
+  "ChassisTags": {
+    "items": [
+      "chassis_clan"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ],
+  "StockRole": "Striker",
+  "YangsThoughts": ""
+}
