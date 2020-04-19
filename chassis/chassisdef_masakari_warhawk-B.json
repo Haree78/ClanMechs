@@ -9,7 +9,7 @@
     "ID": "chassisdef_masakari_warhawk-B",
     "Name": "Masakari",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_masakari"
   },
   "MovementCapDefID": "movedef_masakari-4",
   "PathingCapDefID": "pathingdef_assault",
@@ -226,7 +226,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TAC_Clan",
+      "ComponentDefID": "Gear_TAC4_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,

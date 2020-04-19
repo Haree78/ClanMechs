@@ -21,7 +21,7 @@
     "ID": "mechdef_masakari_warhawk-PRIME",
     "Name": "Masakari",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_masakari"
   },
   "simGameMechPartCost": 2642532,
   "Version": 1,
@@ -100,6 +100,24 @@
     }
   ],
   "inventory": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
@@ -194,6 +212,15 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
       "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",

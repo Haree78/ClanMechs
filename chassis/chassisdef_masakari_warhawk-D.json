@@ -9,7 +9,7 @@
     "ID": "chassisdef_masakari_warhawk-D",
     "Name": "Masakari",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_masakari"
   },
   "MovementCapDefID": "movedef_masakari-4",
   "PathingCapDefID": "pathingdef_assault",
