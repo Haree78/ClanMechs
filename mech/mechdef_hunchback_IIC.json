@@ -1,5 +1,5 @@
 {
-  "ChassisID": "chassisdef_hunchback_iic-(STANDARD)",
+  "ChassisID": "chassisdef_hunchback_IIC",
   "MechTags": {
     "items": [
       "unit_release",
@@ -18,11 +18,11 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Hunchback IIC (STANDARD)",
-    "ID": "mechdef_hunchback_iic-(STANDARD)",
+    "UIName": "Hunchback IIC",
+    "ID": "mechdef_hunchback_IIC",
     "Name": "Hunchback IIC",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_hunchbackiic"
   },
   "simGameMechPartCost": 811000,
   "Version": 1,

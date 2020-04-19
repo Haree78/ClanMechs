@@ -6,10 +6,10 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Hunchback IIC",
-    "ID": "chassisdef_hunchback_iic-(STANDARD)",
+    "ID": "chassisdef_hunchback_IIC",
     "Name": "Hunchback IIC",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_hunchbackiic"
   },
   "MovementCapDefID": "movedef_hunchbackiic-4",
   "PathingCapDefID": "pathingdef_medium",
@@ -180,7 +180,7 @@
       "z": 6.0
     }
   ],
-  "VariantName": "HUN-(STANDARD)",
+  "VariantName": "HBK-IIC",
   "ChassisTags": {
     "items": [
       "chassis_clan"
