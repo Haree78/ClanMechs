@@ -22,7 +22,7 @@
     "ID": "mechdef_gladiator_executioner-D",
     "Name": "Gladiator",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_executioner"
   },
   "simGameMechPartCost": 3543580,
   "Version": 1,

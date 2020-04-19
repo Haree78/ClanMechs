@@ -9,7 +9,7 @@
     "ID": "chassisdef_gladiator_executioner-D",
     "Name": "Gladiator",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_executioner"
   },
   "MovementCapDefID": "movedef_gladiator-4",
   "PathingCapDefID": "pathingdef_assault",

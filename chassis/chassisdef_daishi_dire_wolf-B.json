@@ -9,7 +9,7 @@
     "ID": "chassisdef_daishi_dire_wolf-B",
     "Name": "Daishi",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_daishi"
   },
   "MovementCapDefID": "movedef_daishi-3",
   "PathingCapDefID": "pathingdef_assault",
