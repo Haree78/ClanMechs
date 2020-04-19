@@ -9,7 +9,7 @@
     "ID": "chassisdef_loki_hellbringer-A",
     "Name": "Loki",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_loki"
   },
   "MovementCapDefID": "movedef_loki-5",
   "PathingCapDefID": "pathingdef_heavy",

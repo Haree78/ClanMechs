@@ -9,7 +9,7 @@
     "ID": "chassisdef_loki_hellbringer-PRIME",
     "Name": "Loki",
     "Details": "Originally developed by Clan Hell's Horses in 2926, the Hellbringer features a solid mix of long and short-range direct-fire weapons, along with a plethora of electronic warfare equipment and targeting hardware to assist it in bringing its many weapons systems to bear. It is a highly modular design, devoting almost 43% of its tonnage to pod space to enable rapid re-configuration under battlefield conditions.",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_loki"
   },
   "MovementCapDefID": "movedef_loki-5",
   "PathingCapDefID": "pathingdef_heavy",
