@@ -16,7 +16,7 @@
     "ComponentType" : "Upgrade",
     "ComponentSubType" : "NotSet",
     "PrefabIdentifier" : "",
-    "InventorySize" : 4,
+    "InventorySize" : 2,
     "Tonnage" : 4,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "Legs",

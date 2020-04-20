@@ -1,27 +1,27 @@
 {
   "Description": {
-    "Cost": 11427033,
+    "Cost": 29377500,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Dragonfly",
-    "ID": "chassisdef_dragonfly_viper-A",
-    "Name": "Dragonfly",
-    "Details": "The Viper is a fast, highly-maneuverable medium OmniMech originally designed by Clan Fire Mandrill on Shadow. Codenamed the Dragonfly by the Inner Sphere forces that first encountered this small but fierce OmniMech, the name stuck because of its ability to move swiftly over the battlefield. The Viper is fast and well-armored, but significantly under-gunned compared with other Clan OmniMechs massing 35-45 tons (including the Adder, Battle Cobra, Grendel, Shadow Cat, Pouncer, and Cougar).",
-    "Icon": "uixTxrIcon_dragonfly"
+    "UIName": "Daishi",
+    "ID": "chassisdef_daishi_dire_wolf-S",
+    "Name": "Daishi",
+    "Details": "",
+    "Icon": "uixTxrIcon_daishi"
   },
-  "MovementCapDefID": "movedef_dragonfly-8",
-  "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_viper",
-  "PrefabIdentifier": "chrPrfMech_viperbase-001",
-  "PrefabBase": "viper",
-  "Tonnage": 40,
-  "InitialTonnage": 20.5,
-  "weightClass": "MEDIUM",
-  "BattleValue": 1989000,
-  "MaxJumpjets": 8,
-  "Stability": 130,
+  "MovementCapDefID": "movedef_daishi-3",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_direwhale",
+  "PrefabIdentifier": "chrprfmech_direwolfbase-001",
+  "PrefabBase": "direwhale",
+  "Tonnage": 100,
+  "InitialTonnage": 25.5,
+  "weightClass": "ASSAULT",
+  "BattleValue": 2985000,
+  "MaxJumpjets": 3,
+  "Stability": 200,
   "StabilityDefenses": [
     0,
     0,
@@ -34,19 +34,24 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 5,
+  "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 40,
-  "MeleeInstability": 40,
+  "MeleeDamage": 100,
+  "MeleeInstability": 100,
   "MeleeToHitModifier": 0,
-  "DFADamage": 40,
+  "DFADamage": 100,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 40,
-  "DFAInstability": 40,
+  "DFASelfDamage": 100,
+  "DFAInstability": 100,
   "Locations": [
     {
       "Location": "Head",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -55,12 +60,17 @@
     },
     {
       "Location": "CenterTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 120,
-      "MaxRearArmor": 60,
-      "InternalStructure": 60
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
     },
     {
       "Location": "RightTorso",
@@ -72,13 +82,17 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 100,
-      "MaxRearArmor": 50,
-      "InternalStructure": 50
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "LeftTorso",
@@ -90,16 +104,38 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 100,
-      "MaxRearArmor": 50,
-      "InternalStructure": 50
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "RightArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftArm",
       "HardPoints": [
         {
           "WeaponMount": "Energy",
@@ -108,91 +144,76 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 60,
+      "MaxArmor": 170,
       "MaxRearArmor": -1,
-      "InternalStructure": 30
-    },
-    {
-      "Location": "LeftArm",
-      "HardPoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
+      "InternalStructure": 85
     },
     {
       "Location": "RightLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 100,
+      "MaxArmor": 210,
       "MaxRearArmor": -1,
-      "InternalStructure": 50
+      "InternalStructure": 105
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 100,
+      "MaxArmor": 210,
       "MaxRearArmor": -1,
-      "InternalStructure": 50
+      "InternalStructure": 105
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "y": 16.0,
+      "z": 16.0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 5.0,
+      "y": 16.0,
+      "z": 16.0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -5.0,
+      "y": 16.0,
+      "z": 16.0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "y": 16.0,
+      "z": 16.0
     },
     {
-      "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": 5.0,
+      "y": 16.0,
+      "z": 16.0
     },
     {
-      "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "x": -5.0,
+      "y": 16.0,
+      "z": 16.0
     },
     {
-      "x": 2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": 3.5,
+      "y": 5.5,
+      "z": 5.5
     },
     {
-      "x": -2.5,
-      "y": 6.0,
-      "z": 6.0
+      "x": -3.5,
+      "y": 5.5,
+      "z": 5.5
     }
   ],
-  "VariantName": "DRA-A",
+  "VariantName": "DAI-S",
   "ChassisTags": {
     "items": [
-      "chassis_ferro",
       "chassis_clan"
     ],
     "tagSetSourceFile": ""
@@ -200,7 +221,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefID": "Gear_XL_Engine_Clan_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -209,7 +230,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefID": "Gear_XL_Engine_Clan_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -217,6 +238,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Striker",
-  "YangsThoughts": "Dragonfly A is a great backstabber who can quickly cut through enemy back armor with its array of medium lasers and an SRM6 missile launcher."
+  "StockRole": "Juggernaut",
+  "YangsThoughts": ""
 }
