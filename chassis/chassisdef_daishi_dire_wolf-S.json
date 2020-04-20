@@ -1,14 +1,14 @@
 {
   "Description": {
-    "Cost": 28725000,
+    "Cost": 29377500,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Daishi",
-    "ID": "chassisdef_daishi_dire_wolf-A",
+    "ID": "chassisdef_daishi_dire_wolf-S",
     "Name": "Daishi",
-    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for Great Death) by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.",
+    "Details": "",
     "Icon": "uixTxrIcon_daishi"
   },
   "MovementCapDefID": "movedef_daishi-3",
@@ -19,8 +19,8 @@
   "Tonnage": 100,
   "InitialTonnage": 25.5,
   "weightClass": "ASSAULT",
-  "BattleValue": 2855000,
-  "MaxJumpjets": 0,
+  "BattleValue": 2985000,
+  "MaxJumpjets": 3,
   "Stability": 200,
   "StabilityDefenses": [
     0,
@@ -46,7 +46,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -55,7 +60,12 @@
     },
     {
       "Location": "CenterTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 310,
@@ -65,6 +75,14 @@
     {
       "Location": "RightTorso",
       "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -80,7 +98,15 @@
       "Location": "LeftTorso",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -98,15 +124,7 @@
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -120,7 +138,7 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -193,7 +211,7 @@
       "z": 5.5
     }
   ],
-  "VariantName": "DAI-A",
+  "VariantName": "DAI-S",
   "ChassisTags": {
     "items": [
       "chassis_clan"
@@ -203,7 +221,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefID": "Gear_XL_Engine_Clan_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -212,7 +230,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_XL_Engine_Clan",
+      "ComponentDefID": "Gear_XL_Engine_Clan_2",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -221,5 +239,5 @@
     }
   ],
   "StockRole": "Juggernaut",
-  "YangsThoughts": "Daishi A ielivers impressive firepower at medium ranges. At longer range its firepower is limited to single Gauss rifle which is not enough for an assault mech."
+  "YangsThoughts": ""
 }

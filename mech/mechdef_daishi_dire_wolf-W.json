@@ -1,29 +1,29 @@
 {
-  "ChassisID": "chassisdef_daishi_dire_wolf-B",
+  "ChassisID": "chassisdef_daishi_dire_wolf-W",
   "MechTags": {
     "items": [
       "unit_release",
       "unit_ready",
       "unit_assault",
-      "unit_role_sniper",
+      "unit_role_brawler",
       "unit_mech",
       "unit_speed_low"
     ],
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 29388125,
+    "Cost": 29078125,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Daishi B",
-    "ID": "mechdef_daishi_dire_wolf-B",
+    "UIName": "Daishi W",
+    "ID": "mechdef_daishi_dire_wolf-W",
     "Name": "Daishi",
-    "Details": "The Dire Wolf is one of the OmniMechs that became feared throughout the Inner Sphere during the initial Clan Invasion and rightly so. The Dire Wolf weighs in at an impressive one hundred tons and has a relatively slow cruising speed of 54 km/h provided by a 300 XL engine. Its speed and armor protection matches that of an Atlas, but it has superior potential firepower with fifty and a half tons of free pod space for weapons and equipment. It is these traits which saw the 'Mech christened Daishi (pseudo-Japanese for Great Death) by the criminal underbelly of the Draconis Combine, a name that would be proven grimly accurate time and time again.",
+    "Details": "",
     "Icon": "uixTxrIcon_daishi"
   },
-  "simGameMechPartCost": 2938812,
+  "simGameMechPartCost": 2907812,
   "Version": 1,
   "Locations": [
     {
@@ -101,16 +101,7 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
+      "MountedLocation": "Head",
       "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -119,7 +110,43 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+        {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+        {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -129,7 +156,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_CUAC2_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_CUAC20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -137,25 +164,7 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_CUAC2_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
+      "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -165,7 +174,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Autocannon_CUAC2_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_CLRM20_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -174,16 +183,34 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Autocannon_CUAC2_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC20",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -192,17 +219,8 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Autocannon_CLB10X_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
-      "ComponentDefType": "AmmunitionBox",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
@@ -210,7 +228,52 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Gauss_CGauss_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -219,36 +282,27 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_CPPCER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_CPPCER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
