@@ -8,7 +8,7 @@
     "UIName": "Dragonfly",
     "ID": "chassisdef_dragonfly_viper-A",
     "Name": "Dragonfly",
-    "Details": "",
+    "Details": "The Viper is a fast, highly-maneuverable medium OmniMech originally designed by Clan Fire Mandrill on Shadow. Codenamed the Dragonfly by the Inner Sphere forces that first encountered this small but fierce OmniMech, the name stuck because of its ability to move swiftly over the battlefield. The Viper is fast and well-armored, but significantly under-gunned compared with other Clan OmniMechs massing 35-45 tons (including the Adder, Battle Cobra, Grendel, Shadow Cat, Pouncer, and Cougar).",
     "Icon": "uixTxrIcon_dragonfly"
   },
   "MovementCapDefID": "movedef_dragonfly-8",
@@ -218,5 +218,5 @@
     }
   ],
   "StockRole": "Striker",
-  "YangsThoughts": ""
+  "YangsThoughts": "Dragonfly A is a great backstabber who can quickly cut through enemy back armor with its array of medium lasers and an SRM6 missile launcher."
 }

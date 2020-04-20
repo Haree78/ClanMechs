@@ -3,14 +3,14 @@
     "Type" : "SRM",
     "WeaponSubType" : "SRM4",
     "MinRange" : 0,
-    "MaxRange" : 360,
+    "MaxRange" : 270,
     "RangeSplit" : [
-        240,
-        240,
-        360
+        180,
+        180,
+        270
     ],
-    "AmmoCategory" : "SRM",
-    "StartingAmmoCapacity" : 0,
+    "ammoCategoryID" : "SRM",
+    "StartingAmmoCapacity" : 4,
     "HeatGenerated" : 8,
     "Damage" : 8,
     "OverheatedDamageMultiplier" : 0,
@@ -29,25 +29,25 @@
     "Instability" : 3,
     "WeaponEffectID" : "WeaponEffect-Weapon_SRM4",
     "Description" : {
-        "Cost" : 120000,
-        "Rarity" : 99,
-        "Purchasable" : true,
-        "Manufacturer" : "Clans",
-        "Model" : "Streak Missile Launcher",
-        "UIName" : "Clan Streak SRM4",
-        "Id" : "Weapon_SRM_CSSRM4_0-STOCK",
-        "Name" : "Clan Streak SRM4",
-        "Details" : "The midtier rack of Short-Range Missiles, SRM4s deal good damage for comparatively few negatives other than their inherently short range and need for ammunition. As for all SRMs, SRM4 shots deal above-average stability impact per hit compared to other weapons. Streak launchers are good for hitting evading targets as they ignore 2 evasive charges. Clan Streak launchers have extended range.",
+        "Cost" : 60000,
+        "Rarity" : 9,
+        "Purchasable" : false,
+        "Manufacturer" : "Pattern Alpha",
+        "Model" : "Single Short-Range Missile Launcher",
+        "UIName" : "Clan Streak SRM4 One Shot",
+        "Id" : "Weapon_SRM_CSSRM4_OneShot",
+        "Name" : "Clan Streak SRM4 One Shot",
+        "Details" : "A single shot version of the Streak SRM4 launcher, which can be hooked up to additional ammo feeds if needed.",
         "Icon" : "uixSvgIcon_weapon_Missile"
     },
     "BonusValueA" : "",
     "BonusValueB" : "",
     "ComponentType" : "Weapon",
     "ComponentSubType" : "Weapon",
-    "PrefabIdentifier" : "srm4",
+    "PrefabIdentifier" : "srm2",
     "BattleValue" : 0,
     "InventorySize" : 1,
-    "Tonnage" : 2,
+    "Tonnage" : 2.5,
     "AllowedLocations" : "All",
     "DisallowedLocations" : "All",
     "CriticalComponent" : false,
@@ -57,10 +57,7 @@
     "ComponentTags" : {
         "items" : [
             "component_type_stock",
-            "component_type_clan",
-            "component_type_lostech",
-            "range_standard",
-			"component_streak"
+            "range_standard"
         ],
         "tagSetSourceFile" : ""
     }

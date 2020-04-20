@@ -103,7 +103,7 @@
   "inventory": [
         {
       "MountedLocation": "Head",
-      "ComponentDefID": "Weapon_Inferno_CInferno4_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_CSSRM4_OneShot",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
