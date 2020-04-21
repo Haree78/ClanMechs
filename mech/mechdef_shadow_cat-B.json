@@ -1,0 +1,230 @@
+{
+  "ChassisID": "chassisdef_shadow_cat-B",
+  "MechTags": {
+    "items": [
+      "unit_release",
+      "unit_ready",
+      "unit_medium",
+      "unit_jumpOK",
+      "unit_mech",
+      "unit_speed_medium"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "Description": {
+    "Cost": 13043656,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "ShadowCat B",
+    "ID": "mechdef_shadow_cat-B",
+    "Name": "ShadowCat",
+    "Details": "",
+    "Icon": "uixTxrIcon_stalker"
+  },
+  "simGameMechPartCost": 1304365,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 100,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 70,
+      "AssignedArmor": 100,
+      "AssignedRearArmor": 30
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 90,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_CALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_LRM_CALRM15_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

@@ -1,27 +1,27 @@
 {
   "Description": {
-    "Cost": 12257245,
+    "Cost": 18732312,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Goshawk",
-    "ID": "chassisdef_goshawk_vapor_eagle-2",
-    "Name": "Goshawk",
+    "UIName": "Cauldron-Born",
+    "ID": "chassisdef_cauldron-born_ebon_jaguar-A",
+    "Name": "Cauldron-Born",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_goshawk-6",
-  "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_vaporeagle",
-  "PrefabIdentifier": "chrPrfMech_vaporeagleBase-001",
-  "PrefabBase": "vaporeagle",
-  "Tonnage": 55,
+  "MovementCapDefID": "movedef_cauldron-born-5",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_ebonjaguar",
+  "PrefabIdentifier": "chrprfmech_ebonjaguarbase-001",
+  "PrefabBase": "ebonjaguar",
+  "Tonnage": 65,
   "InitialTonnage": 22.5,
-  "weightClass": "MEDIUM",
-  "BattleValue": 1989000,
-  "MaxJumpjets": 6,
-  "Stability": 130,
+  "weightClass": "HEAVY",
+  "BattleValue": 2429000,
+  "MaxJumpjets": 0,
+  "Stability": 160,
   "StabilityDefenses": [
     0,
     0,
@@ -34,15 +34,15 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 5,
+  "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 55,
-  "MeleeInstability": 55,
+  "MeleeDamage": 65,
+  "MeleeInstability": 65,
   "MeleeToHitModifier": 0,
-  "DFADamage": 55,
+  "DFADamage": 65,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 55,
-  "DFAInstability": 55,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
   "Locations": [
     {
       "Location": "Head",
@@ -58,13 +58,35 @@
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "RightTorso",
       "HardPoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -72,27 +94,9 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "LeftTorso",
-      "HardPoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
     },
     {
       "Location": "RightArm",
@@ -100,19 +104,27 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 90,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 45
+      "InternalStructure": 50
     },
     {
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -126,74 +138,74 @@
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 90,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 45
+      "InternalStructure": 50
     },
     {
       "Location": "RightLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 130,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
-      "InternalStructure": 65
+      "InternalStructure": 75
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 130,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
-      "InternalStructure": 65
+      "InternalStructure": 75
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "y": 18.0,
+      "z": 18.0
     },
     {
       "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "y": 16.0,
+      "z": 16.0
     },
     {
       "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "y": 16.0,
+      "z": 16.0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0.0,
-      "y": 15.0,
-      "z": 15.0
+      "y": 18.0,
+      "z": 18.0
     },
     {
       "x": 4.0,
-      "y": 14.0,
-      "z": 14.0
+      "y": 16.0,
+      "z": 16.0
     },
     {
       "x": -4.0,
-      "y": 14.0,
-      "z": 14.0
+      "y": 16.0,
+      "z": 16.0
     },
     {
-      "x": 2.5,
+      "x": 3.0,
       "y": 6.0,
       "z": 6.0
     },
     {
-      "x": -2.5,
+      "x": -3.0,
       "y": 6.0,
       "z": 6.0
     }
   ],
-  "VariantName": "GOS-2",
+  "VariantName": "CAU-A",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -215,15 +227,6 @@
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_XL_Engine_Clan",
       "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TAC3_Clan",
-      "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
       "DamageLevel": "Functional",

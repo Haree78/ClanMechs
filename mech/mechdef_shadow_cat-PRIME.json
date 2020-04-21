@@ -1,65 +1,66 @@
 {
-  "ChassisID": "chassisdef_uller_kit_fox-C",
+  "ChassisID": "chassisdef_shadow_cat-PRIME",
   "MechTags": {
     "items": [
       "unit_release",
       "unit_ready",
-      "unit_light",
+      "unit_medium",
       "unit_role_brawler",
+      "unit_jumpOK",
       "unit_mech",
       "unit_speed_medium"
     ],
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 6046300,
+    "Cost": 11785509,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Uller C",
-    "ID": "mechdef_uller_kit_fox-C",
-    "Name": "Uller",
-    "Details": "The Kit Fox was another light OmniMech designed by Clan Cloud Cobra, and was first produced in 2890 with the aid of new resources coming from the Tanite Worlds. Rather than emphasize speed, the Kit Fox emphasizes armor and firepower, complementary to the role of the Fire Moth. Clan Jade Falcon Khan Bret Malthus took note of the new design after a string of Cloud Cobra victories, and issued a batchall to the Cobras, a challenge the Jade Falcons only very narrowly won. Clan Snow Raven also produces the Kit Fox, which they acquired by trade. All other Clans field the Kit Fox as isorla, except Clan Blood Spirit, who was gifted the Kit Fox by the generous (or Machiavellian?) Ravens.",
+    "UIName": "ShadowCat PRIME",
+    "ID": "mechdef_shadow_cat-PRIME",
+    "Name": "ShadowCat",
+    "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 604630,
+  "simGameMechPartCost": 1178550,
   "Version": 1,
   "Locations": [
     {
       "DamageLevel": "Functional",
       "Location": "Head",
-      "CurrentArmor": 45,
+      "CurrentArmor": 40,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 15,
-      "AssignedArmor": 45,
+      "AssignedArmor": 40,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
       "CurrentArmor": 100,
-      "CurrentRearArmor": 20,
-      "CurrentInternalStructure": 50,
+      "CurrentRearArmor": 30,
+      "CurrentInternalStructure": 70,
       "AssignedArmor": 100,
-      "AssignedRearArmor": 20
+      "AssignedRearArmor": 30
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 70,
+      "CurrentArmor": 90,
       "CurrentRearArmor": 20,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
       "AssignedRearArmor": 20
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "CurrentArmor": 70,
+      "CurrentArmor": 90,
       "CurrentRearArmor": 20,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
       "AssignedRearArmor": 20
     },
     {
@@ -67,7 +68,7 @@
       "Location": "RightArm",
       "CurrentArmor": 50,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 25,
+      "CurrentInternalStructure": 35,
       "AssignedArmor": 50,
       "AssignedRearArmor": -1
     },
@@ -76,33 +77,51 @@
       "Location": "LeftArm",
       "CurrentArmor": 50,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 25,
+      "CurrentInternalStructure": 35,
       "AssignedArmor": 50,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 65,
+      "CurrentArmor": 90,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 65,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 65,
+      "CurrentArmor": 90,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 65,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 90,
       "AssignedRearArmor": -1
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "IsFixed": false,
@@ -110,9 +129,18 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_AMS_Clan",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
@@ -120,63 +148,54 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_AMS_Clan",
-      "ComponentDefType": "Upgrade",
+      "ComponentDefID": "Weapon_Gauss_CGauss_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_AMS_Clan",
-      "ComponentDefType": "Upgrade",
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_TAG_Clan_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_CSmallLaserPulse_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false

@@ -1,25 +1,25 @@
 {
   "Description": {
-    "Cost": 12257245,
+    "Cost": 13043656,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Goshawk",
-    "ID": "chassisdef_goshawk_vapor_eagle-2",
-    "Name": "Goshawk",
+    "UIName": "ShadowCat",
+    "ID": "chassisdef_shadow_cat-B",
+    "Name": "ShadowCat",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_goshawk-6",
+  "MovementCapDefID": "movedef_shadowcat-6",
   "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_vaporeagle",
-  "PrefabIdentifier": "chrPrfMech_vaporeagleBase-001",
-  "PrefabBase": "vaporeagle",
-  "Tonnage": 55,
-  "InitialTonnage": 22.5,
+  "HardpointDataDefID": "hardpointdatadef_shadowcat",
+  "PrefabIdentifier": "chrPrfMech_shadowcatbase-001",
+  "PrefabBase": "shadowcat",
+  "Tonnage": 45,
+  "InitialTonnage": 16.0,
   "weightClass": "MEDIUM",
-  "BattleValue": 1989000,
+  "BattleValue": 2420000,
   "MaxJumpjets": 6,
   "Stability": 130,
   "StabilityDefenses": [
@@ -36,13 +36,13 @@
   "Signature": 0,
   "Radius": 5,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 55,
-  "MeleeInstability": 55,
+  "MeleeDamage": 45,
+  "MeleeInstability": 45,
   "MeleeToHitModifier": 0,
-  "DFADamage": 55,
+  "DFADamage": 45,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 55,
-  "DFAInstability": 55,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
   "Locations": [
     {
       "Location": "Head",
@@ -58,95 +58,81 @@
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 180,
-      "MaxRearArmor": 90,
-      "InternalStructure": 90
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
     },
     {
       "Location": "LeftTorso",
-      "HardPoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 130,
-      "MaxRearArmor": 65,
-      "InternalStructure": 65
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
     },
     {
       "Location": "RightArm",
       "HardPoints": [
         {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 90,
+      "MaxArmor": 70,
       "MaxRearArmor": -1,
-      "InternalStructure": 45
+      "InternalStructure": 35
     },
     {
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 90,
+      "MaxArmor": 70,
       "MaxRearArmor": -1,
-      "InternalStructure": 45
+      "InternalStructure": 35
     },
     {
       "Location": "RightLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 130,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 65
+      "InternalStructure": 55
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 130,
+      "MaxArmor": 110,
       "MaxRearArmor": -1,
-      "InternalStructure": 65
+      "InternalStructure": 55
     }
   ],
   "LOSSourcePositions": [
@@ -193,7 +179,7 @@
       "z": 6.0
     }
   ],
-  "VariantName": "GOS-2",
+  "VariantName": "SHA-B",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -221,8 +207,26 @@
       "hasPrefabName": false
     },
     {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_MASC_2_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_TAC3_Clan",
+      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Sensor_ECM_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
@@ -230,6 +234,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Skirmisher",
+  "StockRole": "Missile Boat",
   "YangsThoughts": ""
 }
