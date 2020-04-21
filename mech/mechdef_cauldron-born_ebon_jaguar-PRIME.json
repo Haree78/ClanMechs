@@ -1,5 +1,5 @@
 {
-  "ChassisID": "chassisdef_linebacker-PRIME",
+  "ChassisID": "chassisdef_cauldron-born_ebon_jaguar-PRIME",
   "MechTags": {
     "items": [
       "unit_release",
@@ -12,18 +12,18 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 20277984,
+    "Cost": 18283719,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Linebacker PRIME",
-    "ID": "mechdef_linebacker-PRIME",
-    "Name": "Linebacker",
+    "UIName": "Cauldron-Born PRIME",
+    "ID": "mechdef_cauldron-born_ebon_jaguar-PRIME",
+    "Name": "Cauldron-Born",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 2027798,
+  "simGameMechPartCost": 1828371,
   "Version": 1,
   "Locations": [
     {
@@ -38,11 +38,11 @@
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": 50,
+      "CurrentArmor": 160,
+      "CurrentRearArmor": 45,
       "CurrentInternalStructure": 105,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": 50
+      "AssignedArmor": 160,
+      "AssignedRearArmor": 45
     },
     {
       "DamageLevel": "Functional",
@@ -65,53 +65,53 @@
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 100,
+      "CurrentArmor": 85,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 100,
+      "AssignedArmor": 85,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 100,
+      "CurrentArmor": 85,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 50,
-      "AssignedArmor": 100,
+      "AssignedArmor": 85,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 120,
+      "CurrentArmor": 95,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 75,
-      "AssignedArmor": 120,
+      "AssignedArmor": 95,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 120,
+      "CurrentArmor": 95,
       "CurrentRearArmor": -1,
       "CurrentInternalStructure": 75,
-      "AssignedArmor": 120,
+      "AssignedArmor": 95,
       "AssignedRearArmor": -1
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_SRM_CSSRM4_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_SRM_CSRM2_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -129,8 +129,17 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
@@ -147,9 +156,27 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_CLRM5_0-STOCK",
+      "ComponentDefID": "Weapon_LRM_CLRM10_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
@@ -173,17 +200,8 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_CPPCER_0-STOCK",
+      "ComponentDefID": "Weapon_Gauss_CGauss_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -192,9 +210,27 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_CPPCER_0-STOCK",
+      "ComponentDefID": "Weapon_Autocannon_CLB5X_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false

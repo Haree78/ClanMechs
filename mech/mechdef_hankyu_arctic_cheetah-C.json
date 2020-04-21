@@ -1,28 +1,30 @@
 {
-  "ChassisID": "chassisdef_sun_spider-PRIME",
+  "ChassisID": "chassisdef_hankyu_arctic_cheetah-C",
   "MechTags": {
     "items": [
       "unit_release",
       "unit_ready",
-      "unit_heavy",
+      "unit_light",
+      "unit_role_brawler",
+      "unit_jumpOK",
       "unit_mech",
-      "unit_speed_medium"
+      "unit_speed_high"
     ],
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 21458958,
+    "Cost": 6948988,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Sun Spider PRIME",
-    "ID": "mechdef_sun_spider-PRIME",
-    "Name": "Sun Spider",
+    "UIName": "Hankyu C",
+    "ID": "mechdef_hankyu_arctic_cheetah-C",
+    "Name": "Hankyu",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 2145895,
+  "simGameMechPartCost": 694898,
   "Version": 1,
   "Locations": [
     {
@@ -37,81 +39,81 @@
     {
       "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "CurrentArmor": 140,
-      "CurrentRearArmor": 35,
-      "CurrentInternalStructure": 110,
-      "AssignedArmor": 140,
-      "AssignedRearArmor": 35
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 25,
+      "CurrentInternalStructure": 50,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 25
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": 30,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": 30
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 20
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": 30,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": 30
+      "CurrentArmor": 40,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": 20
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightArm",
-      "CurrentArmor": 85,
+      "CurrentArmor": 35,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 85,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 35,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "CurrentArmor": 85,
+      "CurrentArmor": 35,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 85,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 35,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 110,
+      "CurrentArmor": 40,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 110,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
       "AssignedRearArmor": -1
     },
     {
       "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 110,
+      "CurrentArmor": 40,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 110,
+      "CurrentInternalStructure": 35,
+      "AssignedArmor": 40,
       "AssignedRearArmor": -1
     }
   ],
   "inventory": [
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Autocannon_CUAC10_0-STOCK",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
-      "ComponentDefType": "AmmunitionBox",
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
@@ -119,35 +121,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC10",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_CLargeLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -156,34 +130,16 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
+      "ComponentDefID": "Weapon_Laser_CMediumLaserPulse_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Clan_Double",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_Flamer_CFlamer_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -192,7 +148,16 @@
     },
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -201,7 +166,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -210,7 +175,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_CMediumLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
       "IsFixed": false,
@@ -219,8 +184,17 @@
     },
     {
       "MountedLocation": "RightLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
@@ -228,8 +202,17 @@
     },
     {
       "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "ComponentDefType": "AmmunitionBox",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",

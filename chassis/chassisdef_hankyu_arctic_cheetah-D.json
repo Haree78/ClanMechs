@@ -1,26 +1,26 @@
 {
   "Description": {
-    "Cost": 6046300,
+    "Cost": 6591488,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Uller",
-    "ID": "chassisdef_uller_kit_fox-C",
-    "Name": "Uller",
-    "Details": "The Kit Fox was another light OmniMech designed by Clan Cloud Cobra, and was first produced in 2890 with the aid of new resources coming from the Tanite Worlds. Rather than emphasize speed, the Kit Fox emphasizes armor and firepower, complementary to the role of the Fire Moth. Clan Jade Falcon Khan Bret Malthus took note of the new design after a string of Cloud Cobra victories, and issued a batchall to the Cobras, a challenge the Jade Falcons only very narrowly won. Clan Snow Raven also produces the Kit Fox, which they acquired by trade. All other Clans field the Kit Fox as isorla, except Clan Blood Spirit, who was gifted the Kit Fox by the generous (or Machiavellian?) Ravens.",
+    "UIName": "Hankyu",
+    "ID": "chassisdef_hankyu_arctic_cheetah-D",
+    "Name": "Hankyu",
+    "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_uller-6",
+  "MovementCapDefID": "movedef_hankyu-8",
   "PathingCapDefID": "pathingdef_light",
-  "HardpointDataDefID": "hardpointdatadef_kitfox",
-  "PrefabIdentifier": "chrprfmech_kitfoxbase-001",
-  "PrefabBase": "kitfox",
+  "HardpointDataDefID": "hardpointdatadef_arcticcheetah",
+  "PrefabIdentifier": "chrprfmech_arcticcheetahbase-001",
+  "PrefabBase": "arcticcheetah",
   "Tonnage": 30,
-  "InitialTonnage": 10.0,
+  "InitialTonnage": 13.5,
   "weightClass": "LIGHT",
-  "BattleValue": 1147000,
-  "MaxJumpjets": 0,
+  "BattleValue": 1080000,
+  "MaxJumpjets": 6,
   "Stability": 100,
   "StabilityDefenses": [
     0,
@@ -64,7 +64,12 @@
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,
@@ -84,19 +89,7 @@
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -110,19 +103,7 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -195,7 +176,7 @@
       "z": 3.0
     }
   ],
-  "VariantName": "ULL-C",
+  "VariantName": "HAN-D",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -221,26 +202,8 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Sensor_ECM_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
     }
   ],
-  "StockRole": "Striker",
-  "YangsThoughts": "Uller C is a purely support mech. It can score a couple of lucky crits with its machine guns but its role is to support its lance with AMS systems and provide scouting."
+  "StockRole": "Missile Boat",
+  "YangsThoughts": ""
 }

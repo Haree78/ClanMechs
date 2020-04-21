@@ -1,26 +1,26 @@
 {
   "Description": {
-    "Cost": 18828250,
+    "Cost": 18467281,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Viper",
-    "ID": "chassisdef_viper_black_python-(STANDARD)",
-    "Name": "Viper",
+    "UIName": "Cauldron-Born",
+    "ID": "chassisdef_cauldron-born_ebon_jaguar-C",
+    "Name": "Cauldron-Born",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_viper-5",
+  "MovementCapDefID": "movedef_cauldron-born-5",
   "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_viper",
-  "PrefabIdentifier": "chrPrfMech_viperbase-001",
-  "PrefabBase": "viper",
-  "Tonnage": 75,
-  "InitialTonnage": 30.5,
+  "HardpointDataDefID": "hardpointdatadef_ebonjaguar",
+  "PrefabIdentifier": "chrprfmech_ebonjaguarbase-001",
+  "PrefabBase": "ebonjaguar",
+  "Tonnage": 65,
+  "InitialTonnage": 22.5,
   "weightClass": "HEAVY",
-  "BattleValue": 2813000,
-  "MaxJumpjets": 5,
+  "BattleValue": 1831000,
+  "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [
     0,
@@ -36,13 +36,13 @@
   "Signature": 0,
   "Radius": 8,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 75,
-  "MeleeInstability": 75,
+  "MeleeDamage": 65,
+  "MeleeInstability": 65,
   "MeleeToHitModifier": 0,
-  "DFADamage": 75,
+  "DFADamage": 65,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 75,
-  "DFAInstability": 75,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
   "Locations": [
     {
       "Location": "Head",
@@ -58,106 +58,91 @@
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 230,
-      "MaxRearArmor": 115,
-      "InternalStructure": 115
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
     },
     {
       "Location": "RightTorso",
       "HardPoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
     },
     {
       "Location": "LeftTorso",
       "HardPoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
     },
     {
       "Location": "RightArm",
-      "HardPoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 120,
-      "MaxRearArmor": -1,
-      "InternalStructure": 60
-    },
-    {
-      "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 120,
+      "MaxArmor": 100,
       "MaxRearArmor": -1,
-      "InternalStructure": 60
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftArm",
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
     },
     {
       "Location": "RightLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 160,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
-      "InternalStructure": 80
+      "InternalStructure": 75
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 160,
+      "MaxArmor": 150,
       "MaxRearArmor": -1,
-      "InternalStructure": 80
+      "InternalStructure": 75
     }
   ],
   "LOSSourcePositions": [
@@ -204,7 +189,7 @@
       "z": 6.0
     }
   ],
-  "VariantName": "VIP-(STANDARD)",
+  "VariantName": "CAU-C",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -230,17 +215,8 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_TAC4_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
     }
   ],
-  "StockRole": "Skirmisher",
+  "StockRole": "Missile Boat",
   "YangsThoughts": ""
 }

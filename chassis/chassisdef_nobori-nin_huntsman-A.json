@@ -1,27 +1,27 @@
 {
   "Description": {
-    "Cost": 18828250,
+    "Cost": 11334063,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Viper",
-    "ID": "chassisdef_viper_black_python-(STANDARD)",
-    "Name": "Viper",
+    "UIName": "Nobori-nin",
+    "ID": "chassisdef_nobori-nin_huntsman-A",
+    "Name": "Nobori-nin",
     "Details": "",
     "Icon": "uixTxrIcon_stalker"
   },
-  "MovementCapDefID": "movedef_viper-5",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_viper",
-  "PrefabIdentifier": "chrPrfMech_viperbase-001",
-  "PrefabBase": "viper",
-  "Tonnage": 75,
-  "InitialTonnage": 30.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 2813000,
+  "MovementCapDefID": "movedef_nobori-nin-5",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_huntsman",
+  "PrefabIdentifier": "chrprfmech_huntsmanbase-001",
+  "PrefabBase": "huntsman",
+  "Tonnage": 50,
+  "InitialTonnage": 15.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 2034000,
   "MaxJumpjets": 5,
-  "Stability": 160,
+  "Stability": 130,
   "StabilityDefenses": [
     0,
     0,
@@ -34,15 +34,15 @@
   "VisibilityMultiplier": 1,
   "SensorRangeMultiplier": 1,
   "Signature": 0,
-  "Radius": 8,
+  "Radius": 5,
   "PunchesWithLeftArm": true,
-  "MeleeDamage": 75,
-  "MeleeInstability": 75,
+  "MeleeDamage": 50,
+  "MeleeInstability": 50,
   "MeleeToHitModifier": 0,
-  "DFADamage": 75,
+  "DFADamage": 50,
   "DFAToHitModifier": 0,
-  "DFASelfDamage": 75,
-  "DFAInstability": 75,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
   "Locations": [
     {
       "Location": "Head",
@@ -58,153 +58,128 @@
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 230,
-      "MaxRearArmor": 115,
-      "InternalStructure": 115
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 10,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
     },
     {
       "Location": "LeftTorso",
+      "HardPoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
       "HardPoints": [
         {
           "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
       "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 160,
-      "MaxRearArmor": 80,
-      "InternalStructure": 80
-    },
-    {
-      "Location": "RightArm",
-      "HardPoints": [],
-      "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 120,
+      "MaxArmor": 80,
       "MaxRearArmor": -1,
-      "InternalStructure": 60
+      "InternalStructure": 40
     },
     {
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
-      "MaxArmor": 120,
+      "MaxArmor": 80,
       "MaxRearArmor": -1,
-      "InternalStructure": 60
+      "InternalStructure": 40
     },
     {
       "Location": "RightLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 160,
+      "MaxArmor": 120,
       "MaxRearArmor": -1,
-      "InternalStructure": 80
+      "InternalStructure": 60
     },
     {
       "Location": "LeftLeg",
       "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
-      "MaxArmor": 160,
+      "MaxArmor": 120,
       "MaxRearArmor": -1,
-      "InternalStructure": 80
+      "InternalStructure": 60
     }
   ],
   "LOSSourcePositions": [
     {
       "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "y": 15.0,
+      "z": 15.0
     },
     {
       "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "y": 14.0,
+      "z": 14.0
     },
     {
       "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "y": 14.0,
+      "z": 14.0
     }
   ],
   "LOSTargetPositions": [
     {
       "x": 0.0,
-      "y": 18.0,
-      "z": 18.0
+      "y": 15.0,
+      "z": 15.0
     },
     {
       "x": 4.0,
-      "y": 16.0,
-      "z": 16.0
+      "y": 14.0,
+      "z": 14.0
     },
     {
       "x": -4.0,
-      "y": 16.0,
-      "z": 16.0
+      "y": 14.0,
+      "z": 14.0
     },
     {
-      "x": 3.0,
+      "x": 2.5,
       "y": 6.0,
       "z": 6.0
     },
     {
-      "x": -3.0,
+      "x": -2.5,
       "y": 6.0,
       "z": 6.0
     }
   ],
-  "VariantName": "VIP-(STANDARD)",
+  "VariantName": "NOB-A",
   "ChassisTags": {
     "items": [
       "chassis_ferro",
@@ -230,17 +205,8 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_TAC4_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
     }
   ],
-  "StockRole": "Skirmisher",
+  "StockRole": "Sniper",
   "YangsThoughts": ""
 }
