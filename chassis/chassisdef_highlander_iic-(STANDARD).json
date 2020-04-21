@@ -8,7 +8,7 @@
     "UIName": "Highlander IIC",
     "ID": "chassisdef_highlander_iic-(STANDARD)",
     "Name": "Highlander IIC",
-    "Details": "",
+    "Details": "One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans. As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. Though no new Highlanders have been produced in over a century, several hundred are still in scattered use throughout the touman of every Clan.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_highlanderiic-3",
@@ -203,5 +203,5 @@
   },
   "FixedEquipment": [],
   "StockRole": "Missile Boat",
-  "YangsThoughts": ""
+  "YangsThoughts": "The variant is fitted out as an all-range combatant with enhanced anti-infantry fighting."
 }
