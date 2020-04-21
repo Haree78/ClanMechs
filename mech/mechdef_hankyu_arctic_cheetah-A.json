@@ -22,7 +22,7 @@
     "ID": "mechdef_hankyu_arctic_cheetah-A",
     "Name": "Hankyu",
     "Details": "The Arctic Cheetah was originally designed by Clan Ice Hellion to replace the Mist Lynx OmniMech. Shortly after they began production in 3037, Clan Smoke Jaguar conquered the factory on Foster that produced the design, enabling the Jaguars to replace their Mist Lynx 'Mechs. The design was dubbed the Hankyu (Japanese for short bow) by the Draconis Combine forces that first encountered it during the Battle of Luthien. The Ice Hellions subsequently recovered or recaptured Foster MechWorks Facility Beta, but by that point, the majority of the Ice Hellion MechWarriors preferred the Hellion OmniMech.",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_hankyu"
   },
   "simGameMechPartCost": 666298,
   "Version": 1,

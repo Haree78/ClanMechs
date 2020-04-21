@@ -9,7 +9,7 @@
     "ID": "chassisdef_nobori-nin_huntsman-B",
     "Name": "Nobori-nin",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_huntsman"
   },
   "MovementCapDefID": "movedef_nobori-nin-5",
   "PathingCapDefID": "pathingdef_medium",

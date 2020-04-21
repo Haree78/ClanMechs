@@ -9,7 +9,7 @@
     "ID": "chassisdef_shadow_cat-B",
     "Name": "ShadowCat",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_shadowcat"
   },
   "MovementCapDefID": "movedef_shadowcat-6",
   "PathingCapDefID": "pathingdef_medium",

@@ -9,7 +9,7 @@
     "ID": "chassisdef_cauldron-born_ebon_jaguar-PRIME",
     "Name": "Cauldron-Born",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_cauldron"
   },
   "MovementCapDefID": "movedef_cauldron-born-5",
   "PathingCapDefID": "pathingdef_heavy",
