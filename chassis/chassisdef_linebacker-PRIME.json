@@ -8,7 +8,7 @@
     "UIName": "Linebacker",
     "ID": "chassisdef_linebacker-PRIME",
     "Name": "Linebacker",
-    "Details": "",
+    "Details": "The Linebacker was designed to eventually replace the Timber Wolf in the touman of Clan Wolf when it was found that the venerable design could not keep pace with its Starmates in running battles, which could, of course, limit its effectiveness during the invasion of the Inner Sphere. The name for the OmniMech comes from the Linebacker's hunched appearance, which resembles players of ancient American Football. The Linebacker has found a home within Clan Wolf in Exile and is tolerated by the Crusader Wolves because of their need for equipment. ",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_linebacker-6",
@@ -214,5 +214,5 @@
     }
   ],
   "StockRole": "Skirmisher",
-  "YangsThoughts": ""
+  "YangsThoughts": "In its primary configuration the Linebacker is configured for long range combat, with two powerful ER PPCs for its primary firepower, as they can reach a target at long range and are each capable of vaporizing almost a full ton of standard armor. "
 }
