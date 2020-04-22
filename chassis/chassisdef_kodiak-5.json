@@ -20,7 +20,6 @@
   "InitialTonnage": 39.5,
   "weightClass": "ASSAULT",
   "BattleValue": 3067000,
-  "Heatsinks": 6,
   "MaxJumpjets": 0,
   "Stability": 200,
   "StabilityDefenses": [
@@ -52,7 +51,7 @@
       "InventorySlots": 1,
       "MaxArmor": 45,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 16
     },
     {
       "Location": "CenterTorso",

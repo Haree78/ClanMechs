@@ -30,7 +30,7 @@
       "Location": "Head",
       "CurrentArmor": 45,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 15,
+      "CurrentInternalStructure": 16,
       "AssignedArmor": 45,
       "AssignedRearArmor": -1
     },
@@ -180,7 +180,7 @@
       "DamageLevel": "Functional",
       "hasPrefabName": false
     },
-        {
+    {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",

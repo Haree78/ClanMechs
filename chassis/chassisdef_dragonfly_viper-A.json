@@ -51,7 +51,7 @@
       "InventorySlots": 1,
       "MaxArmor": 45,
       "MaxRearArmor": -1,
-      "InternalStructure": 15
+      "InternalStructure": 16
     },
     {
       "Location": "CenterTorso",
