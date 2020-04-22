@@ -8,7 +8,7 @@
     "UIName": "Cauldron-Born",
     "ID": "chassisdef_cauldron-born_ebon_jaguar-A",
     "Name": "Cauldron-Born",
-    "Details": "",
+    "Details": "Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien. Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources.",
     "Icon": "uixTxrIcon_cauldron"
   },
   "MovementCapDefID": "movedef_cauldron-born-5",
@@ -234,5 +234,5 @@
     }
   ],
   "StockRole": "Skirmisher",
-  "YangsThoughts": ""
+  "YangsThoughts": "Built around what was once the largest gun in the Clan arsenal, the Cauldron-Born A is capable of dealing blistering damage at a variety of ranges."
 }

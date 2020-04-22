@@ -8,7 +8,7 @@
     "UIName": "Cauldron-Born",
     "ID": "chassisdef_cauldron-born_ebon_jaguar-C",
     "Name": "Cauldron-Born",
-    "Details": "",
+    "Details": "Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien. Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources.",
     "Icon": "uixTxrIcon_cauldron"
   },
   "MovementCapDefID": "movedef_cauldron-born-5",
@@ -218,5 +218,5 @@
     }
   ],
   "StockRole": "Missile Boat",
-  "YangsThoughts": ""
+  "YangsThoughts": "The Cauldron-Born C is a missile boat and much easier on the heat curve than the other variants. Its primary weapons are a pair of LRM-15s and 25mm Ultra Autocannon/2s."
 }
