@@ -8,7 +8,7 @@
     "UIName": "Loki",
     "ID": "chassisdef_loki_hellbringer-PRIME",
     "Name": "Loki",
-    "Details": "Originally developed by Clan Hell's Horses in 2926, the Hellbringer features a solid mix of long and short-range direct-fire weapons, along with a plethora of electronic warfare equipment and targeting hardware to assist it in bringing its many weapons systems to bear. It is a highly modular design, devoting almost 43% of its tonnage to pod space to enable rapid re-configuration under battlefield conditions.",
+    "Details": "The Hellbringer is a very widespread design developed by Clan Hell's Horses. However, due to its poor armor, the Hellbringer is often passed over for more robust OmniMechs. The Inner Sphere first encountered the Hellbringer facing Clan Jade Falcon, which favors the design for its immense offensive potential. Earning the codename Loki by Galen Cox, an AFFC officer who declared each of the Hellbringer's various versions as an utterly mad configuration, the 'Mech does at first glance appear to be highly unusual, mounting a spread of weapons, anti-personnel equipment and electronics. The Hellbringer utilizes a standard internal structure, and has decent mobility, with a top speed of 86.4 km/h.",
     "Icon": "uixTxrIcon_loki"
   },
   "MovementCapDefID": "movedef_loki-5",
