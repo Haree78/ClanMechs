@@ -8,7 +8,7 @@
     "UIName": "ManOWar",
     "ID": "chassisdef_man_o_war_gargoyle-PRIME",
     "Name": "ManOWar",
-    "Details": "",
+    "Details": "The Gargoyle is an extremely fast assault OmniMech developed with the Timber Wolf as replacements for the first-generation Woodsman OmniMech. The Gargoyle is therefore commonly seen among Clan Wolf, and was a featured assault OmniMech during the Clan Invasion. The Gargoyle earned the name Man O' War from the Inner Sphere forces because of its effectiveness. Along with the Timber Wolf and Naga, the Gargoyle debuted in 2945.",
     "Icon": "uixTxrIcon_gargoyle"
   },
   "MovementCapDefID": "movedef_manowar-5",
@@ -213,5 +213,5 @@
     }
   ],
   "StockRole": "Skirmisher",
-  "YangsThoughts": ""
+  "YangsThoughts": "The Primary ManOWar configuration is capable of engaging enemies at a variety of ranges. For long range encounters, the 'Mech has two LB 5-X Autocannon that are capable of firing both solid rounds and cluster ammunition. For short ranges, the 'Mech has two SRM-6 launchers and a single ER Small Laser which provide adequate close in protection. "
 }
