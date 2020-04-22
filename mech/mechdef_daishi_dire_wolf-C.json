@@ -32,7 +32,7 @@
       "Location": "Head",
       "CurrentArmor": 45,
       "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 15,
+      "CurrentInternalStructure": 16,
       "AssignedArmor": 45,
       "AssignedRearArmor": -1
     },
@@ -101,7 +101,7 @@
     }
   ],
   "inventory": [
-        {
+    {
       "MountedLocation": "Head",
       "ComponentDefID": "Weapon_SRM_CSSRM4_OneShot",
       "ComponentDefType": "Weapon",
