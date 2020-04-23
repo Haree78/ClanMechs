@@ -8,7 +8,7 @@
     "UIName": "Rifleman IIC",
     "ID": "chassisdef_rifleman_iic-2",
     "Name": "Rifleman IIC",
-    "Details": "",
+    "Details": "The Rifleman IIC is an upgrade of the venerable Rifleman BattleMech. Five tons heavier than the design it is based on, the Rifleman IIC is also slower. This creates a great deal more room with which to mount other equipment. Further weight savings are found in the use of an Endo Steel frame. One of the first upgrades to the design was maxing out its protection, with eleven tons of Ferro-Fibrous armor. The vaunted anti-aircraft 'Mech is aided in its role by the inclusion of an Active Probe. To compensate for the loss of speed, the IIC mounts three jump jets that can propel the 'Mech up to ninety meters in one leap.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_riflemaniic-4",
@@ -187,5 +187,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "This variant removes all of the weapons and equipment, and replaces them with four Ultra Autocannon/2s and six tons of ammunition. The weight saved, plus a half ton from armor, is used to upgrade the engine to allow the 'Mech a top speed of 64 km/h."
 }

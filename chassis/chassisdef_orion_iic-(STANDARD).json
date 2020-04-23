@@ -8,7 +8,7 @@
     "UIName": "Orion IIC",
     "ID": "chassisdef_orion_iic-(STANDARD)",
     "Name": "Orion IIC",
-    "Details": "",
+    "Details": "Since it was the chosen BattleMech of the Great Father, the venerable Orion has always held a special place in the mystique of the Clans. Debuting early during the Golden Century, the Orion IIC was quickly overshadowed as the OmniMech fast became the standard front-line 'Mechs of all the Clans. Despite this the Wolves jealously guarded their rights to the design, refusing all trade offers and successfully defeating any Trial of Possessions attempting to acquire it as they would for the Kerensky Blood heritages, seeing the Orion IIC as tied to their honor as the guardians of Kerensky's legacy.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_orioniic-4",
@@ -195,5 +195,5 @@
   },
   "FixedEquipment": [],
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": " Orion IIC replaces much of the innards and weapons of the original, while preserving its mass and aesthetics. This IIC upgrade utilizes an Endo Steel chassis and twelve tons of Ferro-Fibrous armor, while also making use of twelve double heat sinks, freeing up weight for heavier weapons loadout."
 }
