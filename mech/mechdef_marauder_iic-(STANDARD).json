@@ -19,7 +19,7 @@
     "UIName": "Marauder IIC (STANDARD)",
     "ID": "mechdef_marauder_iic-(STANDARD)",
     "Name": "Marauder IIC",
-    "Details": "",
+    "Details": "It is to the credit of its original engineers that no production variants of the Marauder IIC appeared until a wellspring of new technology emerged in the 3050s and '60s, with Clan Star Adder introducing a visually refreshed model carrying the then-newly developed Heavy Lasers that quickly spread to the Cloud Cobras, Goliath Scorpions, Snow Ravens, Blood Spirits and Diamond Sharks. The efforts of the mercantile Sharks would result in the further spread of the design to the Inner Sphere-based Invading Clans, followed by Clans Jade Falcon and Ghost Bear introducing new Marauder IIC variants and constructing new production lines for them on Sudeten and Satalice respectively during the Word of Blake Jihad.",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 991353,
@@ -245,6 +245,33 @@
     },
     {
       "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,

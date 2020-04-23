@@ -8,7 +8,7 @@
     "UIName": "Nobori-nin",
     "ID": "chassisdef_nobori-nin_huntsman-A",
     "Name": "Nobori-nin",
-    "Details": "",
+    "Details": "First seen within the 119th Nova Cat Striker Cluster during the Battle of Luthien, a Draconis Combine Mustered Soldiery intelligence officer dubbed the OmniMech with the name of Nobori-nin (Japanese for Banner-bearer) due to the single fin-like projection rising from the back of the 'Mech reminding him of the banner samurai worn on their backs in feudal Japan. Prized for its flexibility across a wide range of opponents and battlefield conditions, the Huntsman was almost exclusively a Nova Cat design during the initial Clan Invasion, but prior to the Word of Blake Jihad had entered service with Clans Diamond Shark, Cloud Cobra and Star Adder.",
     "Icon": "uixTxrIcon_huntsman"
   },
   "MovementCapDefID": "movedef_nobori-nin-5",
@@ -208,5 +208,5 @@
     }
   ],
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "Useful at all ranges, the first alternate configuration uses an LRM-10 and an LB-X Autocannon/2 at long range. A pair of Large Pulse Lasers are accurate at all ranges, though they necessitated the addition of two double heat sinks."
 }

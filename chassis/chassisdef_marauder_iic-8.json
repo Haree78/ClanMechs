@@ -8,7 +8,7 @@
     "UIName": "Marauder IIC",
     "ID": "chassisdef_marauder_iic-8",
     "Name": "Marauder IIC",
-    "Details": "",
+    "Details": "It is to the credit of its original engineers that no production variants of the Marauder IIC appeared until a wellspring of new technology emerged in the 3050s and '60s, with Clan Star Adder introducing a visually refreshed model carrying the then-newly developed Heavy Lasers that quickly spread to the Cloud Cobras, Goliath Scorpions, Snow Ravens, Blood Spirits and Diamond Sharks. The efforts of the mercantile Sharks would result in the further spread of the design to the Inner Sphere-based Invading Clans, followed by Clans Jade Falcon and Ghost Bear introducing new Marauder IIC variants and constructing new production lines for them on Sudeten and Satalice respectively during the Word of Blake Jihad.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_marauderiic-4",
@@ -208,5 +208,5 @@
   },
   "FixedEquipment": [],
   "StockRole": "Brawler",
-  "YangsThoughts": ""
+  "YangsThoughts": "This older version replaces the ER PPC found in the left arm with the Medium Pulse Laser from the right arm. An LRM-10 with a ton of ammunition is added to the left torso and the ER Small Lasers in the center and right torsos are replaced with a single Medium Pulse Laser in each."
 }
