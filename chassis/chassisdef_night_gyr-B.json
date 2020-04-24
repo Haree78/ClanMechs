@@ -184,6 +184,7 @@
   "VariantName": "NIG-B",
   "ChassisTags": {
     "items": [
+      "chassis_omni",
       "chassis_ferro",
       "chassis_clan"
     ],

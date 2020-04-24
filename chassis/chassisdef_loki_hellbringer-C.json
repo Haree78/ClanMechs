@@ -196,6 +196,7 @@
   "VariantName": "LOK-C",
   "ChassisTags": {
     "items": [
+      "chassis_omni",
       "chassis_clan"
     ],
     "tagSetSourceFile": ""

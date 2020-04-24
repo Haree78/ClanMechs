@@ -208,6 +208,7 @@
     "VariantName": "MAD-PRIME",
     "ChassisTags": {
         "items": [
+			"chassis_omni",
 			"chassis_ferro",
 			"chassis_clan"
 		],

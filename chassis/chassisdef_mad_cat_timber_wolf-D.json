@@ -197,6 +197,7 @@
   "VariantName": "MAD-D",
   "ChassisTags": {
     "items": [
+      "chassis_omni",
       "chassis_ferro",
       "chassis_clan"
     ],

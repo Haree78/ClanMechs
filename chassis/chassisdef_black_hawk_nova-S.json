@@ -213,6 +213,7 @@
   "VariantName": "BLC-S",
   "ChassisTags": {
     "items": [
+      "chassis_omni",
       "chassis_clan"
     ],
     "tagSetSourceFile": ""
