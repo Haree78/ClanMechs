@@ -9,7 +9,7 @@
     "ID": "chassisdef_warhammer_iic-2",
     "Name": "Warhammer IIC",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_warhammeriic"
   },
   "MovementCapDefID": "movedef_warhammeriic-4",
   "PathingCapDefID": "pathingdef_assault",

@@ -203,7 +203,7 @@
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_SRM_CSSRM6_0-STOCK",
       "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
+      "HardpointSlot": 1,
       "IsFixed": false,
       "DamageLevel": "Functional",
       "hasPrefabName": false

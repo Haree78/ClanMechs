@@ -20,7 +20,7 @@
     "ID": "mechdef_marauder_iic-8",
     "Name": "Marauder IIC",
     "Details": "It is to the credit of its original engineers that no production variants of the Marauder IIC appeared until a wellspring of new technology emerged in the 3050s and '60s, with Clan Star Adder introducing a visually refreshed model carrying the then-newly developed Heavy Lasers that quickly spread to the Cloud Cobras, Goliath Scorpions, Snow Ravens, Blood Spirits and Diamond Sharks. The efforts of the mercantile Sharks would result in the further spread of the design to the Inner Sphere-based Invading Clans, followed by Clans Jade Falcon and Ghost Bear introducing new Marauder IIC variants and constructing new production lines for them on Sudeten and Satalice respectively during the Word of Blake Jihad.",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_marauderiic"
   },
   "simGameMechPartCost": 985109,
   "Version": 1,

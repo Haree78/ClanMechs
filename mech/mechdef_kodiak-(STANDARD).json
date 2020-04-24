@@ -20,7 +20,7 @@
     "ID": "mechdef_kodiak-(STANDARD)",
     "Name": "Kodiak",
     "Details": "The Kodiak is a fast Assault 'Mech designed by Clan Ghost Bear as a second-line counterpart to the Gladiator. Though not taken to the same extreme as other Clan Totem 'Mechs, the Kodiak does epitomize the Ghost Bears' method of warfare, combining an impressive defensive platform with surprising amounts of speed and firepower. Its massive 400-rated XL Engine propels the Kodiak to a maximum speed of 64.8 km/h, while seventeen and a half tons of Compound 12A2 gives it impressive armor protection. ",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_kodiak"
   },
   "simGameMechPartCost": 2979133,
   "Version": 1,
