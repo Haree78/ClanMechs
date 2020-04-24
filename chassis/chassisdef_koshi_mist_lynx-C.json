@@ -100,12 +100,7 @@
     },
     {
       "Location": "LeftArm",
-      "HardPoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 40,
