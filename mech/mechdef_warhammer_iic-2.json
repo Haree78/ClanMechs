@@ -20,7 +20,7 @@
     "ID": "mechdef_warhammer_iic-2",
     "Name": "Warhammer IIC",
     "Details": "",
-    "Icon": "uixTxrIcon_stalker"
+    "Icon": "uixTxrIcon_warhammeriic"
   },
   "simGameMechPartCost": 952500,
   "Version": 1,
