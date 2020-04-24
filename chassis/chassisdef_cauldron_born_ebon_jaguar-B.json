@@ -1,12 +1,12 @@
 {
   "Description": {
-    "Cost": 18283719,
+    "Cost": 18756031,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Cauldron-Born",
-    "ID": "chassisdef_cauldron-born_ebon_jaguar-PRIME",
+    "ID": "chassisdef_cauldron_born_ebon_jaguar-B",
     "Name": "Cauldron-Born",
     "Details": "Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien. Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources.",
     "Icon": "uixTxrIcon_cauldron"
@@ -19,7 +19,7 @@
   "Tonnage": 65,
   "InitialTonnage": 22.5,
   "weightClass": "HEAVY",
-  "BattleValue": 1952000,
+  "BattleValue": 2535000,
   "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [
@@ -66,7 +66,11 @@
       "Location": "RightTorso",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -80,7 +84,7 @@
       "Location": "LeftTorso",
       "HardPoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
@@ -102,11 +106,11 @@
       "Location": "RightArm",
       "HardPoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -120,11 +124,11 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -197,7 +201,7 @@
       "z": 6.0
     }
   ],
-  "VariantName": "CAU-PRIME",
+  "VariantName": "CAU-B",
   "ChassisTags": {
     "items": [
       "chassis_omni",
@@ -224,8 +228,17 @@
       "IsFixed": true,
       "DamageLevel": "Functional",
       "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
     }
   ],
-  "StockRole": "Skirmisher",
-  "YangsThoughts": "The primary configuration of the Ebon Jaguar was made to attack from long range. With a mammoth Gauss Rifle occupying the entire right arm, a 75mm LB 5-X AC in the left arm, and an LRM-10 jutting above the birdlike shoulder, "
+  "StockRole": "Sniper",
+  "YangsThoughts": "This variant, once called by a DCMS warrior the best forward observer ever built, uses an ER PPC and a Large Pulse Laser mounted in each arm. "
 }

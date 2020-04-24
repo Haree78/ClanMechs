@@ -1,12 +1,12 @@
 {
   "Description": {
-    "Cost": 18467281,
+    "Cost": 18283719,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
     "UIName": "Cauldron-Born",
-    "ID": "chassisdef_cauldron-born_ebon_jaguar-C",
+    "ID": "chassisdef_cauldron_born_ebon_jaguar-PRIME",
     "Name": "Cauldron-Born",
     "Details": "Introduced in 3049 to address flaws in the venerable Hellbringer, by Operation REVIVAL the Ebon Jaguar had only just started to spread through the Jaguar's touman with the Inner Sphere first encountering the design during the Battle of Luthien. Facing it for the first time when engaging the First Jaguar Guards Cluster in the Kado-Guchi Valley, the 'Mech's ability to take damage and remain operational led the Inner Sphere warriors who fought it to call it the Cauldron-Born after the unstoppable zombies of Irish myth. Paradoxically many of the other Clans also used the Inner Sphere Cauldron-Born reporting name, having first learned detailed information of the design from Inner Sphere sources.",
     "Icon": "uixTxrIcon_cauldron"
@@ -19,7 +19,7 @@
   "Tonnage": 65,
   "InitialTonnage": 22.5,
   "weightClass": "HEAVY",
-  "BattleValue": 1831000,
+  "BattleValue": 1952000,
   "MaxJumpjets": 0,
   "Stability": 160,
   "StabilityDefenses": [
@@ -82,6 +82,14 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -93,10 +101,6 @@
     {
       "Location": "RightArm",
       "HardPoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -115,10 +119,6 @@
     {
       "Location": "LeftArm",
       "HardPoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -197,7 +197,7 @@
       "z": 6.0
     }
   ],
-  "VariantName": "CAU-C",
+  "VariantName": "CAU-PRIME",
   "ChassisTags": {
     "items": [
       "chassis_omni",
@@ -226,6 +226,6 @@
       "hasPrefabName": false
     }
   ],
-  "StockRole": "Missile Boat",
-  "YangsThoughts": "The Cauldron-Born C is a missile boat and much easier on the heat curve than the other variants. Its primary weapons are a pair of LRM-15s and 25mm Ultra Autocannon/2s."
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "The primary configuration of the Ebon Jaguar was made to attack from long range. With a mammoth Gauss Rifle occupying the entire right arm, a 75mm LB 5-X AC in the left arm, and an LRM-10 jutting above the birdlike shoulder, "
 }
