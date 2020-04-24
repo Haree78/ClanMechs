@@ -84,6 +84,10 @@
       "Location": "LeftTorso",
       "HardPoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -113,6 +117,10 @@
       "HardPoints": [
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
