@@ -8,7 +8,7 @@
     "UIName": "Supernova",
     "ID": "chassisdef_supernova-(STANDARD)",
     "Name": "Supernova",
-    "Details": "",
+    "Details": "A second-line Clan 'Mech feared by many Inner Sphere pilots, the Supernova seems to be an advanced version of the Black Hawk, though it was actually developed before that venerable OmniMech. Plans to replace the King Crab's loadout with clusters of Large Lasers grew from a shortage of autocannon ammunition. The first prototypes met with little success due to the King Crab's integral Ferro Fibrous armor, but gave rise to a lighter and leaner new design.",
     "Icon": "uixTxrIcon_supernova"
   },
   "MovementCapDefID": "movedef_supernova-3",
@@ -196,5 +196,5 @@
   },
   "FixedEquipment": [],
   "StockRole": "Sniper",
-  "YangsThoughts": ""
+  "YangsThoughts": "The Supernova's only armaments are six Clan ER Large Lasers. While this is a fair amount of firepower for a 'Mech of its size, it has a severe overheating problem."
 }
