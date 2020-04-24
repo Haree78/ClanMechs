@@ -90,6 +90,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -101,6 +105,10 @@
     {
       "Location": "LeftArm",
       "HardPoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
