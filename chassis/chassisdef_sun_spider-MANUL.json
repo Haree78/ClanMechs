@@ -8,7 +8,7 @@
     "UIName": "Sun Spider",
     "ID": "chassisdef_sun_spider-MANUL",
     "Name": "Sun Spider",
-    "Details": "",
+    "Details": "While only entering production proper in the wake of Operation REVIVAL, the Sun Spider originated centuries earlier, in the years following Clan Coyote's introduction of the OmniMech concept. Clan Goliath Scorpion recognized the game-changing nature of the technology, but repeatedly lost every Trial trying to acquire it as the Coyotes pressed their technological advantage. Shamed by their continued losses, the Scorpions' then-Scientist-General Patkirk took matters into his own hands, opening secret discussions with former Clan Widowmaker elements within Clan Wolf's Scientist Caste, playing on the shame they still felt for the actions of their former Clan and the Scorpion's honorable dealings in the Widowmaker Absorption to guilt them into sharing OmniMech data as an act of surkairede.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_sunspider-5",
@@ -218,5 +218,5 @@
     }
   ],
   "StockRole": "Undetermined",
-  "YangsThoughts": ""
+  "YangsThoughts": "The custom config of Star Colonel Tabok of the Fourth Scorpion Cuirassiers, the 'Manul' Hero 'Mech is a ranged energy boat with an ER PPC and ER Large Laser in each arm. Its only other weapon is an ER Small Laser in the left torso."
 }
