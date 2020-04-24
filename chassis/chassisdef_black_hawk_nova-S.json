@@ -55,12 +55,7 @@
     },
     {
       "Location": "CenterTorso",
-      "HardPoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "HardPoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 160,
