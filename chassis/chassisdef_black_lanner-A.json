@@ -209,15 +209,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Gear_Sensor_ECM_Clan",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_MASC_2_Clan",
       "ComponentDefType": "Upgrade",
@@ -228,7 +219,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_Sensor_ActiveProbe_Clan",
+      "ComponentDefID": "Gear_Sensor_EWE_Clan",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "IsFixed": true,
