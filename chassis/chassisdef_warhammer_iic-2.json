@@ -8,7 +8,7 @@
     "UIName": "Warhammer IIC",
     "ID": "chassisdef_warhammer_iic-2",
     "Name": "Warhammer IIC",
-    "Details": "",
+    "Details": "The Clans wisely maintained and built on Warhammer solid frame a real assault 'Mech, the Warhammer IIC. Thanks to their technological expertise, they were able to add ten tons with the same speed and firepower and nearly double the armor of the original. The Warhammer IIC is built on an Endo Steel frame and is protected by twelve tons of Ferro-Fibrous armor. The result is a dangerous 'Mech, able to hold its own in any battle against the Inner Sphere. Also note that the armor was the primary concern when designing the IIc version rivaling even 100 ton assault 'Mechs in durability and protection.",
     "Icon": "uixTxrIcon_warhammeriic"
   },
   "MovementCapDefID": "movedef_warhammeriic-4",
@@ -195,5 +195,5 @@
   },
   "FixedEquipment": [],
   "StockRole": "Missile Boat",
-  "YangsThoughts": ""
+  "YangsThoughts": "This variant turns the Warhammer IIC into a fire support 'Mech. Clan scientists replaced the Medium Pulse Lasers with a pair of LRM-15s and four tons of ammunition."
 }
