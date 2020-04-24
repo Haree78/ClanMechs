@@ -46,7 +46,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -55,7 +60,12 @@
     },
     {
       "Location": "CenterTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 220,
@@ -88,6 +98,10 @@
     {
       "Location": "RightArm",
       "HardPoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
