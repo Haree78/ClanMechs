@@ -102,15 +102,6 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Weapon_Laser_CSmallLaserER_0-STOCK",
       "ComponentDefType": "Weapon",
@@ -147,24 +138,6 @@
       "hasPrefabName": false
     },
     {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Weapon_MachineGun_CMachineGun_0-STOCK",
       "ComponentDefType": "Weapon",
@@ -195,24 +168,6 @@
       "MountedLocation": "LeftTorso",
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
       "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "IsFixed": false,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
       "HardpointSlot": -1,
       "IsFixed": false,
       "DamageLevel": "Functional",
