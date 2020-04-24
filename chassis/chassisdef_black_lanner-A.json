@@ -75,7 +75,7 @@
       "Location": "LeftTorso",
       "HardPoints": [
         {
-          "WeaponMount": "",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],

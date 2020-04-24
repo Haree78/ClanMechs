@@ -64,7 +64,12 @@
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 130,
@@ -73,7 +78,12 @@
     },
     {
       "Location": "LeftTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 130,
