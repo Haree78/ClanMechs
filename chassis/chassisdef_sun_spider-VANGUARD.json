@@ -8,7 +8,7 @@
     "UIName": "Sun Spider",
     "ID": "chassisdef_sun_spider-VANGUARD",
     "Name": "Sun Spider",
-    "Details": "",
+    "Details": "While only entering production proper in the wake of Operation REVIVAL, the Sun Spider originated centuries earlier, in the years following Clan Coyote's introduction of the OmniMech concept. Clan Goliath Scorpion recognized the game-changing nature of the technology, but repeatedly lost every Trial trying to acquire it as the Coyotes pressed their technological advantage. Shamed by their continued losses, the Scorpions' then-Scientist-General Patkirk took matters into his own hands, opening secret discussions with former Clan Widowmaker elements within Clan Wolf's Scientist Caste, playing on the shame they still felt for the actions of their former Clan and the Scorpion's honorable dealings in the Widowmaker Absorption to guilt them into sharing OmniMech data as an act of surkairede.",
     "Icon": "uixTxrIcon_stalker"
   },
   "MovementCapDefID": "movedef_sunspider-5",
@@ -218,5 +218,5 @@
     }
   ],
   "StockRole": "Undetermined",
-  "YangsThoughts": ""
+  "YangsThoughts": "Second of two Hero 'Mechs for the Sun Spider, the Vanguard mounts an LB 5-X AC in each side torso alongside a left-torso mounted ER PPC, for close range support a single Streak SRM-2 in the left and a pair of Streak SRM-4 in the right arm are carried."
 }
