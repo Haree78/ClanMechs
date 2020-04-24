@@ -46,7 +46,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
