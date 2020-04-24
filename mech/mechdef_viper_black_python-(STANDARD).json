@@ -21,7 +21,7 @@
     "UIName": "Viper (STANDARD)",
     "ID": "mechdef_viper_black_python-(STANDARD)",
     "Name": "Viper",
-    "Details": "",
+    "Details": "The Black Python, which was designated the Viper by Inner Sphere forces, is similar in many ways to the Warhammer and Marauder BattleMechs. Though it is faster than those heavies, it has a similar weapons load-out with comparable damage, albeit with much more accurate damage potential. In order to achieve this, this expensive second-line 'Mech avails itself of all weight saving technologies that were at the disposal of the Clans, including an XL Engine, Endo Steel frame, and eleven tons of Ferro-Fibrous armor. In addition to its speed, the Black Python mounts five jump jets that propel it up to 150 meters at a time.",
     "Icon": "uixTxrIcon_stalker"
   },
   "simGameMechPartCost": 1882825,
@@ -256,6 +256,15 @@
     },
     {
       "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Clan_Double",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
       "ComponentDefID": "Gear_HeatSink_Clan_Double",
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
