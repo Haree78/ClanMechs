@@ -64,7 +64,12 @@
     },
     {
       "Location": "RightTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 120,
@@ -73,7 +78,12 @@
     },
     {
       "Location": "LeftTorso",
-      "HardPoints": [],
+      "HardPoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+	  ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 120,
@@ -84,11 +94,15 @@
       "Location": "RightArm",
       "HardPoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -102,11 +116,15 @@
       "Location": "LeftArm",
       "HardPoints": [
         {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
