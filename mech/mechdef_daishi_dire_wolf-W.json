@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 29078125,
+    "Cost": 40710000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_daishi"
   },
-  "simGameMechPartCost": 2907812,
+  "simGameMechPartCost": 4070000,
   "Version": 1,
   "Locations": [
     {

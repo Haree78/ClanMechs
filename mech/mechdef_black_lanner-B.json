@@ -11,7 +11,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 17697448,
+    "Cost": 24780000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -22,7 +22,7 @@
     "Details": "Newly developed by Clan Jade Falcon for the Clan Invasion of the Inner Sphere, the Black Lanner is a fast medium OmniMech that can take on a variety of roles. While used for independent operations, the Black Lanner is most frequently seen in conjunction with lighter designs. Mixed Stars of Black Lanners, Fire Falcons and Fire Moths are common, with the lighter 'Mechs acting as spotters and harassers for the heavier 'Mechs, flushing out the opposing units for the Black Lanner to move in for the kill. This synergistic relationship is similar to that shared between the smaller indigenous Fire Falcon and the introduced black lanners on Ironhold, both birds benefiting from the presence of the other.",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 1769744,
+  "simGameMechPartCost": 2470000,
   "Version": 1,
   "Locations": [
     {

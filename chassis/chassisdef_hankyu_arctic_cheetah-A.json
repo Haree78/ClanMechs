@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 6662988,
+    "Cost": 7730000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -69,7 +69,7 @@
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
-	  ],
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,
@@ -83,7 +83,7 @@
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
-	  ],
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,

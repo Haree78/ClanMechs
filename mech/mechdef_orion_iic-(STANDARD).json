@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 8267000,
+    "Cost": 11570000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "Since it was the chosen BattleMech of the Great Father, the venerable Orion has always held a special place in the mystique of the Clans. Debuting early during the Golden Century, the Orion IIC was quickly overshadowed as the OmniMech fast became the standard front-line 'Mechs of all the Clans. Despite this the Wolves jealously guarded their rights to the design, refusing all trade offers and successfully defeating any Trial of Possessions attempting to acquire it as they would for the Kerensky Blood heritages, seeing the Orion IIC as tied to their honor as the guardians of Kerensky's legacy.",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 826700,
+  "simGameMechPartCost": 1150000,
   "Version": 1,
   "Locations": [
     {

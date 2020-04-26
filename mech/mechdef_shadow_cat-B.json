@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 13043656,
+    "Cost": 18260000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "The Shadow Cat is a heavily-armed and maneuverable medium OmniMech developed by Clan Nova Cat to replace the Ice Ferret in the early 31st century during preparations for Operation Revival. Use of the Shadow Cat has spread to other Clans since its introduction, most notably, the Annihilated Clan Smoke Jaguar, Clan Cloud Cobra, Clan Fire Mandrill, Clan Steel Viper, Clan Diamond Shark and Clan Wolf. First encountered by Inner Sphere forces at the Battle of Luthien, the Shadow Cat was subsequently used by the Clans during the Battle of Tukayyid against ComStar.",
     "Icon": "uixTxrIcon_shadowcat"
   },
-  "simGameMechPartCost": 1304365,
+  "simGameMechPartCost": 1820000,
   "Version": 1,
   "Locations": [
     {

@@ -13,7 +13,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 7490475,
+    "Cost": 10490000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
     "Details": "The Jenner was first fielded in September 2784, the same year the Exodus fleet that would eventually become the Clans left the Inner Sphere in November. How exactly they acquired this design in that short timeframe is not known, but what is known is that the Clan version fields Clan weaponry, so it is known as the Jenner IIC. This second-line BattleMech is still a fast light that is now capable of delivering plenty of short-range missiles. To achieve this, it uses an XL Engine, Endo Steel structure, and mounts only three and a half tons of Ferro-Fibrous armor. It also carries enough jump jets to leap up to 210 meters at a time.",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 749047,
+  "simGameMechPartCost": 1040000,
   "Version": 1,
   "Locations": [
     {

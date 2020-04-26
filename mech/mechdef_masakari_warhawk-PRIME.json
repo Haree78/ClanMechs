@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 26425323,
+    "Cost": 37000000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_masakari"
   },
-  "simGameMechPartCost": 2642532,
+  "simGameMechPartCost": 3700000,
   "Version": 1,
   "Locations": [
     {

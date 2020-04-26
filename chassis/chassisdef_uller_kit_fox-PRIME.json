@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 5368838,
+    "Cost": 6230000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -78,7 +78,7 @@
           "WeaponMount": "Missile",
           "Omni": false
         }
-	  ],
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,

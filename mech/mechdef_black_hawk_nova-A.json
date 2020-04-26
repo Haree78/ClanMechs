@@ -13,7 +13,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 11426875,
+    "Cost": 16000000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_blackhawk"
   },
-  "simGameMechPartCost": 1142687,
+  "simGameMechPartCost": 1600000,
   "Version": 1,
   "Locations": [
     {

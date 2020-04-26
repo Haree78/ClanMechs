@@ -13,7 +13,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 12634375,
+    "Cost": 17690000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_huntsman"
   },
-  "simGameMechPartCost": 1263437,
+  "simGameMechPartCost": 1760000,
   "Version": 1,
   "Locations": [
     {

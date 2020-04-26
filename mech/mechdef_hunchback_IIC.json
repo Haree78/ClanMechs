@@ -13,7 +13,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 8110000,
+    "Cost": 11350000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
     "Details": "The Hunchback IIC is a Clan-tech refit of the venerable Hunchback. Its meager six tons of armor, coupled with paltry ammunition and lack of long-range weapons, led Inner Sphere observers to conclude that this 'Mech was a last-ditch effort for failed warriors to die with glory. In truth, the assignment of a Hunchback IIC was essentially a death sentence. Warriors given this machine were not expected to survive their next battle. However, despite the attrition rates expected for pilots of this BattleMech, the number of Hunchback IICs within all Clans has remained more or less constant, a surprisingly high 3% of the entire touman of each Clan.",
     "Icon": "uixTxrIcon_hunchbackiic"
   },
-  "simGameMechPartCost": 811000,
+  "simGameMechPartCost": 1130000,
   "Version": 1,
   "Locations": [
     {

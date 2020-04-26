@@ -11,7 +11,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 15910363,
+    "Cost": 22270000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -19,10 +19,10 @@
     "UIName": "Ryoken D",
     "ID": "mechdef_ryoken_stormcrow-D",
     "Name": "Ryoken",
-    "Details": "The Stormcrow is a wide-spread, second generation OmniMech fielded by many Clans. However, within the Clan Smoke Jaguar touman, the Stormcrow was especially common during the Clan Invasion and was codenamed the Ryoken (a misspelling of ry≈çken - hunting dog) by the warriors of the DCMS who encountered it. Because of its versatility through its combination of mobility, armor, and firepower in its various configurations, the Stormcrow is a feared opponent on the battlefield.",
+    "Details": "The Stormcrow is a wide-spread, second generation OmniMech fielded by many Clans. However, within the Clan Smoke Jaguar touman, the Stormcrow was especially common during the Clan Invasion and was codenamed the Ryoken (a misspelling of ry≈?ken - hunting dog) by the warriors of the DCMS who encountered it. Because of its versatility through its combination of mobility, armor, and firepower in its various configurations, the Stormcrow is a feared opponent on the battlefield.",
     "Icon": "uixTxrIcon_ryoken"
   },
-  "simGameMechPartCost": 1591036,
+  "simGameMechPartCost": 2220000,
   "Version": 1,
   "Locations": [
     {

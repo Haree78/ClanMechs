@@ -11,7 +11,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 21467458,
+    "Cost": 30050000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -22,7 +22,7 @@
     "Details": "While only entering production proper in the wake of Operation REVIVAL, the Sun Spider originated centuries earlier, in the years following Clan Coyote's introduction of the OmniMech concept. Clan Goliath Scorpion recognized the game-changing nature of the technology, but repeatedly lost every Trial trying to acquire it as the Coyotes pressed their technological advantage. Shamed by their continued losses, the Scorpions' then-Scientist-General Patkirk took matters into his own hands, opening secret discussions with former Clan Widowmaker elements within Clan Wolf's Scientist Caste, playing on the shame they still felt for the actions of their former Clan and the Scorpion's honorable dealings in the Widowmaker Absorption to guilt them into sharing OmniMech data as an act of surkairede.",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 2146745,
+  "simGameMechPartCost": 3000000,
   "Version": 1,
   "Locations": [
     {
