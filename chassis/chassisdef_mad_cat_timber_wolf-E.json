@@ -1,6 +1,6 @@
 {
   "Description": {
-    "Cost": 24572188,
+    "Cost": 28500000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -60,10 +60,10 @@
           "WeaponMount": "Energy",
           "Omni": false
         },
-		{
-			"WeaponMount": "AntiPersonnel",
-			"Omni": false
-		}
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
       ],
       "Tonnage": 0,
       "InventorySlots": 4,
@@ -78,10 +78,10 @@
           "WeaponMount": "Missile",
           "Omni": false
         },
-		{
-			"WeaponMount": "AntiPersonnel",
-			"Omni": false
-		}
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
@@ -96,10 +96,10 @@
           "WeaponMount": "Missile",
           "Omni": false
         },
-		{
-			"WeaponMount": "AntiPersonnel",
-			"Omni": false
-		}
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
       ],
       "Tonnage": 0,
       "InventorySlots": 10,
@@ -114,10 +114,10 @@
           "WeaponMount": "Energy",
           "Omni": false
         },
-		{
-			"WeaponMount": "AntiPersonnel",
-			"Omni": false
-		}
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
@@ -132,10 +132,10 @@
           "WeaponMount": "Energy",
           "Omni": false
         },
-		{
-			"WeaponMount": "AntiPersonnel",
-			"Omni": false
-		}
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
       ],
       "Tonnage": 0,
       "InventorySlots": 8,
