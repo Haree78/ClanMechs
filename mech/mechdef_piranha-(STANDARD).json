@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 2780940,
+    "Cost": 3890000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "The Piranha was developed by Clan Diamond Shark shortly before the Battle of Tukayyid to combat Inner Sphere conventional infantry and light vehicles. The sheer speed that the BattleMech is capable of has also made it something of a scout, though it lacks sophisticated electronic equipment. The Piranha is protected mostly by its speed, though it does mount four tons of armor. Relatively rare in the Inner Sphere following Tukayyid, by the late 3060s the Diamond Sharks maintained production of the Piranha primarily as a filler to pad out other sales to the various Clans. ",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 278094,
+  "simGameMechPartCost": 380000,
   "Version": 1,
   "Locations": [
     {

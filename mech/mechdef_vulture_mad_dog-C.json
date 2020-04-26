@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 14580000,
+    "Cost": 20410000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "The Mad Dog is a heavy Clan OmniMech used for long-range indirect fire support. With hunched shoulders, a protruding head, and reverse-jointed legs, the Mad Dog resembles a vulture, so much so that it was codenamed Vulture and Hagetaka (Vulture in Japanese) by the Inner Sphere forces which first encountered it. With its ample firepower and decent speed of 86.4 km/h, it makes a highly mobile firing platform, and as such has spread to near ubiquity among the forces deployed by the Clans, although the design is favored more by Clan Ghost Bear MechWarriors. The Mad Dog carries eight and a half tons of Ferro-Fibrous armor for decent protection, although it will not be able to stand up to heavy fire.",
     "Icon": "uixTxrIcon_vulture"
   },
-  "simGameMechPartCost": 1458000,
+  "simGameMechPartCost": 2040000,
   "Version": 1,
   "Locations": [
     {

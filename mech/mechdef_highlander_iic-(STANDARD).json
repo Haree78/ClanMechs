@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 10091280,
+    "Cost": 14130000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "One of the most popular Star League BattleMechs, many a Highlander accompanied General Aleksandr Kerensky into exile. Some were mothballed, but many found their way into the toumans of the Clans. As technology advanced, the weapons systems were upgraded until the design known as the Highlander IIC finally emerged. Though no new Highlanders have been produced in over a century, several hundred are still in scattered use throughout the touman of every Clan.",
     "Icon": "uixTxrIcon_stalker"
   },
-  "simGameMechPartCost": 1009128,
+  "simGameMechPartCost": 1410000,
   "Version": 1,
   "Locations": [
     {

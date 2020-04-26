@@ -12,7 +12,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 12543588,
+    "Cost": 17560000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -23,7 +23,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_fenris"
   },
-  "simGameMechPartCost": 1254358,
+  "simGameMechPartCost": 1750000,
   "Version": 1,
   "Locations": [
     {

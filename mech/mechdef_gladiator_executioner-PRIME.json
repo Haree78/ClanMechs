@@ -13,7 +13,7 @@
     "tagSetSourceFile": ""
   },
   "Description": {
-    "Cost": 35713072,
+    "Cost": 50000000,
     "Rarity": 3,
     "Purchasable": true,
     "Manufacturer": "",
@@ -24,7 +24,7 @@
     "Details": "",
     "Icon": "uixTxrIcon_executioner"
   },
-  "simGameMechPartCost": 3571307,
+  "simGameMechPartCost": 5000000,
   "Version": 1,
   "Locations": [
     {
